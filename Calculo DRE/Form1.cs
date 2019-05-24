@@ -49,9 +49,29 @@ namespace Calculo_DRE
             return Convert.ToDouble(PassivoCirculante1.Text) / (Convert.ToDouble(PassivoCirculante1.Text) + Convert.ToDouble(PASSIVOFINANCIAMENTO.Text));
         }
 
-        private double participacaodecapitaldeterceiros()
+        private double participacaodecapitaldeterceirosemrelacaoaopatromonioliquido()
         {
             return ( Convert.ToDouble(PassivoCirculante1.Text) + Convert.ToDouble(PASSIVOFINANCIAMENTO.Text) ) / Convert.ToDouble( PassivoPatromnioLiq1.Text);
+        }
+
+        private double participacaodecapitaldeterceirosemrelacaoaoATIVO()
+        {
+            return (Convert.ToDouble(PassivoCirculante1.Text) + Convert.ToDouble(PASSIVOFINANCIAMENTO.Text)) / Convert.ToDouble(AtivoTotal1.Text);
+        }
+
+        private double garatiadocapitaldeterceiros()
+        {
+            return Convert.ToDouble(PassivoPatromnioLiq1.Text) / (Convert.ToDouble(PassivoCirculante1.Text) + Convert.ToDouble(PassivoNaoCirculante1.Text));
+        }
+
+        private double graudesolvencia()
+        {
+            return Convert.ToDouble(AtivoTotal1.Text) / (Convert.ToDouble(PassivoCirculante1.Text) + Convert.ToDouble(PassivoNaoCirculante1.Text));
+        }
+
+        private double girodoativo()
+        {
+            return Convert.ToDouble(Vendas.Text) / Convert.ToDouble(AtivoTotal1.Text);
         }
 
     }
