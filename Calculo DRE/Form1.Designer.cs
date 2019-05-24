@@ -47,6 +47,42 @@
             this.label11 = new System.Windows.Forms.Label();
             this.AtivoImobilizado2 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.maquinas2 = new System.Windows.Forms.TextBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.computadores2 = new System.Windows.Forms.TextBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.veiculos2 = new System.Windows.Forms.TextBox();
+            this.Instalacoes2 = new System.Windows.Forms.TextBox();
+            this.label39 = new System.Windows.Forms.Label();
+            this.Moveis2 = new System.Windows.Forms.TextBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.contasareceber2 = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.caixa2 = new System.Windows.Forms.TextBox();
+            this.estoque2 = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.BancosCMovimento2 = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.maquinas1 = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.computadores1 = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.Veiculos1 = new System.Windows.Forms.TextBox();
+            this.Instalacoes1 = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.Moveis1 = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.Contasaareceber1 = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.Caixa1 = new System.Windows.Forms.TextBox();
+            this.Estoque1 = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.BancosCMovimento1 = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
             this.PassivoCirculante1 = new System.Windows.Forms.TextBox();
             this.PassivoNaoCirculante1 = new System.Windows.Forms.TextBox();
             this.PassvioPatrimonioLiq2 = new System.Windows.Forms.TextBox();
@@ -61,71 +97,6 @@
             this.PassivoNaocirculante2 = new System.Windows.Forms.TextBox();
             this.PassivoTotal2 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.Receitaliquida = new System.Windows.Forms.TextBox();
-            this.LucroOUPrejuizoAcumulado = new System.Windows.Forms.TextBox();
-            this.LucroantesdoIR = new System.Windows.Forms.TextBox();
-            this.LucroBruto = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.Calcular = new System.Windows.Forms.Button();
-            this.Caixa1 = new System.Windows.Forms.TextBox();
-            this.Estoque1 = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.BancosCMovimento1 = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.Contasaareceber1 = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.computadores1 = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.Veiculos1 = new System.Windows.Forms.TextBox();
-            this.Instalacoes1 = new System.Windows.Forms.TextBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.Moveis1 = new System.Windows.Forms.TextBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.maquinas1 = new System.Windows.Forms.TextBox();
-            this.label32 = new System.Windows.Forms.Label();
-            this.contasareceber2 = new System.Windows.Forms.TextBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.caixa2 = new System.Windows.Forms.TextBox();
-            this.estoque2 = new System.Windows.Forms.TextBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.BancosCMovimento2 = new System.Windows.Forms.TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.maquinas2 = new System.Windows.Forms.TextBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.computadores2 = new System.Windows.Forms.TextBox();
-            this.label38 = new System.Windows.Forms.Label();
-            this.veiculos2 = new System.Windows.Forms.TextBox();
-            this.Instalacoes2 = new System.Windows.Forms.TextBox();
-            this.label39 = new System.Windows.Forms.Label();
-            this.Moveis2 = new System.Windows.Forms.TextBox();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label42 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label43 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label46 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label47 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -136,26 +107,55 @@
             this.label51 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label54 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label55 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label56 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.PASSIVOLUCROOUPREJUIZO2 = new System.Windows.Forms.TextBox();
+            this.PASSIVOCAPITALSOCIAL2 = new System.Windows.Forms.TextBox();
+            this.PASSIVOFINANCIAMENTO2 = new System.Windows.Forms.TextBox();
+            this.PASSIVOSALARIOSENCARGOSPAGAR2 = new System.Windows.Forms.TextBox();
+            this.PASSIVOCONTASAPAGAR2 = new System.Windows.Forms.TextBox();
+            this.PASSIVOFONECEDORES2 = new System.Windows.Forms.TextBox();
+            this.PASSIVOLUCROOUPREJUIZO = new System.Windows.Forms.TextBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.PASSIVOCAPITALSOCIAL = new System.Windows.Forms.TextBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.PASSIVOFINANCIAMENTO = new System.Windows.Forms.TextBox();
+            this.label42 = new System.Windows.Forms.Label();
+            this.PASSIVOSALARIOSENCARGOSPAGAR = new System.Windows.Forms.TextBox();
+            this.PASSIVOCONTASAPAGAR = new System.Windows.Forms.TextBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.PASSIVOFONECEDORES = new System.Windows.Forms.TextBox();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.DESPESAS = new System.Windows.Forms.TextBox();
             this.label59 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.luzaguatelefone = new System.Windows.Forms.TextBox();
             this.label60 = new System.Windows.Forms.Label();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.ALUGUEL = new System.Windows.Forms.TextBox();
+            this.contribuicaosocial = new System.Windows.Forms.TextBox();
             this.label61 = new System.Windows.Forms.Label();
-            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.Impostederenda = new System.Windows.Forms.TextBox();
             this.label62 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
+            this.SALARIOS = new System.Windows.Forms.TextBox();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.CMV = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.receita = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.icmssemvendas = new System.Windows.Forms.TextBox();
+            this.LucroBruto = new System.Windows.Forms.TextBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.LucroantesdoIR = new System.Windows.Forms.TextBox();
+            this.Vendas = new System.Windows.Forms.TextBox();
+            this.LucroOUPrejuizoAcumulado = new System.Windows.Forms.TextBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.Receitaliquida = new System.Windows.Forms.TextBox();
+            this.label58 = new System.Windows.Forms.Label();
+            this.Calcular = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -371,6 +371,316 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ativo";
             // 
+            // maquinas2
+            // 
+            this.maquinas2.Location = new System.Drawing.Point(263, 335);
+            this.maquinas2.Name = "maquinas2";
+            this.maquinas2.Size = new System.Drawing.Size(100, 22);
+            this.maquinas2.TabIndex = 73;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(369, 338);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(54, 16);
+            this.label37.TabIndex = 74;
+            this.label37.Text = "Maquinas";
+            // 
+            // computadores2
+            // 
+            this.computadores2.Location = new System.Drawing.Point(263, 307);
+            this.computadores2.Name = "computadores2";
+            this.computadores2.Size = new System.Drawing.Size(100, 22);
+            this.computadores2.TabIndex = 71;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(369, 310);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(77, 16);
+            this.label38.TabIndex = 72;
+            this.label38.Text = "Computadores";
+            // 
+            // veiculos2
+            // 
+            this.veiculos2.Location = new System.Drawing.Point(263, 227);
+            this.veiculos2.Name = "veiculos2";
+            this.veiculos2.Size = new System.Drawing.Size(100, 22);
+            this.veiculos2.TabIndex = 65;
+            // 
+            // Instalacoes2
+            // 
+            this.Instalacoes2.Location = new System.Drawing.Point(263, 279);
+            this.Instalacoes2.Name = "Instalacoes2";
+            this.Instalacoes2.Size = new System.Drawing.Size(100, 22);
+            this.Instalacoes2.TabIndex = 66;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(369, 256);
+            this.label39.Name = "label39";
+            this.label39.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label39.Size = new System.Drawing.Size(45, 16);
+            this.label39.TabIndex = 70;
+            this.label39.Text = "Móveis ";
+            // 
+            // Moveis2
+            // 
+            this.Moveis2.Location = new System.Drawing.Point(263, 253);
+            this.Moveis2.Name = "Moveis2";
+            this.Moveis2.Size = new System.Drawing.Size(100, 22);
+            this.Moveis2.TabIndex = 69;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Location = new System.Drawing.Point(369, 282);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(60, 16);
+            this.label40.TabIndex = 67;
+            this.label40.Text = "Instalações";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.Location = new System.Drawing.Point(369, 230);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(47, 16);
+            this.label41.TabIndex = 68;
+            this.label41.Text = "Veículos";
+            // 
+            // contasareceber2
+            // 
+            this.contasareceber2.Location = new System.Drawing.Point(263, 145);
+            this.contasareceber2.Name = "contasareceber2";
+            this.contasareceber2.Size = new System.Drawing.Size(100, 22);
+            this.contasareceber2.TabIndex = 63;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(369, 148);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(94, 16);
+            this.label33.TabIndex = 64;
+            this.label33.Text = "Contas a Receber";
+            // 
+            // caixa2
+            // 
+            this.caixa2.Location = new System.Drawing.Point(263, 65);
+            this.caixa2.Name = "caixa2";
+            this.caixa2.Size = new System.Drawing.Size(100, 22);
+            this.caixa2.TabIndex = 57;
+            // 
+            // estoque2
+            // 
+            this.estoque2.Location = new System.Drawing.Point(263, 117);
+            this.estoque2.Name = "estoque2";
+            this.estoque2.Size = new System.Drawing.Size(100, 22);
+            this.estoque2.TabIndex = 58;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(369, 94);
+            this.label34.Name = "label34";
+            this.label34.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label34.Size = new System.Drawing.Size(111, 16);
+            this.label34.TabIndex = 62;
+            this.label34.Text = "Bancos C/ Movimento";
+            // 
+            // BancosCMovimento2
+            // 
+            this.BancosCMovimento2.Location = new System.Drawing.Point(263, 91);
+            this.BancosCMovimento2.Name = "BancosCMovimento2";
+            this.BancosCMovimento2.Size = new System.Drawing.Size(100, 22);
+            this.BancosCMovimento2.TabIndex = 61;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(369, 120);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(46, 16);
+            this.label35.TabIndex = 59;
+            this.label35.Text = "Estoque";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(369, 68);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(39, 16);
+            this.label36.TabIndex = 60;
+            this.label36.Text = "Caixa ";
+            // 
+            // maquinas1
+            // 
+            this.maquinas1.Location = new System.Drawing.Point(12, 332);
+            this.maquinas1.Name = "maquinas1";
+            this.maquinas1.Size = new System.Drawing.Size(100, 22);
+            this.maquinas1.TabIndex = 55;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(118, 335);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(54, 16);
+            this.label32.TabIndex = 56;
+            this.label32.Text = "Maquinas";
+            // 
+            // computadores1
+            // 
+            this.computadores1.Location = new System.Drawing.Point(12, 304);
+            this.computadores1.Name = "computadores1";
+            this.computadores1.Size = new System.Drawing.Size(100, 22);
+            this.computadores1.TabIndex = 53;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(118, 307);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(77, 16);
+            this.label28.TabIndex = 54;
+            this.label28.Text = "Computadores";
+            // 
+            // Veiculos1
+            // 
+            this.Veiculos1.Location = new System.Drawing.Point(12, 224);
+            this.Veiculos1.Name = "Veiculos1";
+            this.Veiculos1.Size = new System.Drawing.Size(100, 22);
+            this.Veiculos1.TabIndex = 47;
+            // 
+            // Instalacoes1
+            // 
+            this.Instalacoes1.Location = new System.Drawing.Point(12, 276);
+            this.Instalacoes1.Name = "Instalacoes1";
+            this.Instalacoes1.Size = new System.Drawing.Size(100, 22);
+            this.Instalacoes1.TabIndex = 48;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(118, 253);
+            this.label29.Name = "label29";
+            this.label29.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label29.Size = new System.Drawing.Size(45, 16);
+            this.label29.TabIndex = 52;
+            this.label29.Text = "Móveis ";
+            // 
+            // Moveis1
+            // 
+            this.Moveis1.Location = new System.Drawing.Point(12, 250);
+            this.Moveis1.Name = "Moveis1";
+            this.Moveis1.Size = new System.Drawing.Size(100, 22);
+            this.Moveis1.TabIndex = 51;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(118, 279);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(60, 16);
+            this.label30.TabIndex = 49;
+            this.label30.Text = "Instalações";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(118, 227);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(47, 16);
+            this.label31.TabIndex = 50;
+            this.label31.Text = "Veículos";
+            // 
+            // Contasaareceber1
+            // 
+            this.Contasaareceber1.Location = new System.Drawing.Point(12, 142);
+            this.Contasaareceber1.Name = "Contasaareceber1";
+            this.Contasaareceber1.Size = new System.Drawing.Size(100, 22);
+            this.Contasaareceber1.TabIndex = 45;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(118, 145);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(94, 16);
+            this.label27.TabIndex = 46;
+            this.label27.Text = "Contas a Receber";
+            // 
+            // Caixa1
+            // 
+            this.Caixa1.Location = new System.Drawing.Point(12, 62);
+            this.Caixa1.Name = "Caixa1";
+            this.Caixa1.Size = new System.Drawing.Size(100, 22);
+            this.Caixa1.TabIndex = 39;
+            // 
+            // Estoque1
+            // 
+            this.Estoque1.Location = new System.Drawing.Point(12, 114);
+            this.Estoque1.Name = "Estoque1";
+            this.Estoque1.Size = new System.Drawing.Size(100, 22);
+            this.Estoque1.TabIndex = 40;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(118, 91);
+            this.label24.Name = "label24";
+            this.label24.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label24.Size = new System.Drawing.Size(111, 16);
+            this.label24.TabIndex = 44;
+            this.label24.Text = "Bancos C/ Movimento";
+            // 
+            // BancosCMovimento1
+            // 
+            this.BancosCMovimento1.Location = new System.Drawing.Point(12, 88);
+            this.BancosCMovimento1.Name = "BancosCMovimento1";
+            this.BancosCMovimento1.Size = new System.Drawing.Size(100, 22);
+            this.BancosCMovimento1.TabIndex = 43;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(118, 117);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(46, 16);
+            this.label25.TabIndex = 41;
+            this.label25.Text = "Estoque";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(118, 65);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(39, 16);
+            this.label26.TabIndex = 42;
+            this.label26.Text = "Caixa ";
+            // 
             // PassivoCirculante1
             // 
             this.PassivoCirculante1.Location = new System.Drawing.Point(12, 37);
@@ -484,22 +794,22 @@
             this.groupBox2.Controls.Add(this.label51);
             this.groupBox2.Controls.Add(this.label52);
             this.groupBox2.Controls.Add(this.label53);
-            this.groupBox2.Controls.Add(this.textBox11);
-            this.groupBox2.Controls.Add(this.textBox12);
-            this.groupBox2.Controls.Add(this.textBox7);
-            this.groupBox2.Controls.Add(this.textBox8);
-            this.groupBox2.Controls.Add(this.textBox9);
-            this.groupBox2.Controls.Add(this.textBox10);
-            this.groupBox2.Controls.Add(this.textBox5);
+            this.groupBox2.Controls.Add(this.PASSIVOLUCROOUPREJUIZO2);
+            this.groupBox2.Controls.Add(this.PASSIVOCAPITALSOCIAL2);
+            this.groupBox2.Controls.Add(this.PASSIVOFINANCIAMENTO2);
+            this.groupBox2.Controls.Add(this.PASSIVOSALARIOSENCARGOSPAGAR2);
+            this.groupBox2.Controls.Add(this.PASSIVOCONTASAPAGAR2);
+            this.groupBox2.Controls.Add(this.PASSIVOFONECEDORES2);
+            this.groupBox2.Controls.Add(this.PASSIVOLUCROOUPREJUIZO);
             this.groupBox2.Controls.Add(this.label46);
-            this.groupBox2.Controls.Add(this.textBox6);
+            this.groupBox2.Controls.Add(this.PASSIVOCAPITALSOCIAL);
             this.groupBox2.Controls.Add(this.label47);
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.PASSIVOFINANCIAMENTO);
             this.groupBox2.Controls.Add(this.label42);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.PASSIVOSALARIOSENCARGOSPAGAR);
+            this.groupBox2.Controls.Add(this.PASSIVOCONTASAPAGAR);
             this.groupBox2.Controls.Add(this.label43);
-            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.PASSIVOFONECEDORES);
             this.groupBox2.Controls.Add(this.label44);
             this.groupBox2.Controls.Add(this.label45);
             this.groupBox2.Controls.Add(this.label2);
@@ -523,583 +833,6 @@
             this.groupBox2.TabIndex = 58;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Passivo";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(118, 207);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 16);
-            this.label2.TabIndex = 59;
-            this.label2.Text = "Patrimonio Liq.";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.textBox18);
-            this.groupBox3.Controls.Add(this.label59);
-            this.groupBox3.Controls.Add(this.textBox19);
-            this.groupBox3.Controls.Add(this.label60);
-            this.groupBox3.Controls.Add(this.textBox20);
-            this.groupBox3.Controls.Add(this.textBox21);
-            this.groupBox3.Controls.Add(this.label61);
-            this.groupBox3.Controls.Add(this.textBox22);
-            this.groupBox3.Controls.Add(this.label62);
-            this.groupBox3.Controls.Add(this.label63);
-            this.groupBox3.Controls.Add(this.textBox13);
-            this.groupBox3.Controls.Add(this.label54);
-            this.groupBox3.Controls.Add(this.label23);
-            this.groupBox3.Controls.Add(this.textBox14);
-            this.groupBox3.Controls.Add(this.label22);
-            this.groupBox3.Controls.Add(this.label55);
-            this.groupBox3.Controls.Add(this.label21);
-            this.groupBox3.Controls.Add(this.textBox15);
-            this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Controls.Add(this.textBox16);
-            this.groupBox3.Controls.Add(this.LucroBruto);
-            this.groupBox3.Controls.Add(this.label56);
-            this.groupBox3.Controls.Add(this.LucroantesdoIR);
-            this.groupBox3.Controls.Add(this.textBox17);
-            this.groupBox3.Controls.Add(this.LucroOUPrejuizoAcumulado);
-            this.groupBox3.Controls.Add(this.label57);
-            this.groupBox3.Controls.Add(this.Receitaliquida);
-            this.groupBox3.Controls.Add(this.label58);
-            this.groupBox3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(3, 436);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(794, 207);
-            this.groupBox3.TabIndex = 59;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "EMPRESA Demonstração de resultados de Exercicio";
-            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
-            // 
-            // Receitaliquida
-            // 
-            this.Receitaliquida.Location = new System.Drawing.Point(6, 106);
-            this.Receitaliquida.Name = "Receitaliquida";
-            this.Receitaliquida.Size = new System.Drawing.Size(100, 22);
-            this.Receitaliquida.TabIndex = 0;
-            // 
-            // LucroOUPrejuizoAcumulado
-            // 
-            this.LucroOUPrejuizoAcumulado.Location = new System.Drawing.Point(509, 86);
-            this.LucroOUPrejuizoAcumulado.Name = "LucroOUPrejuizoAcumulado";
-            this.LucroOUPrejuizoAcumulado.Size = new System.Drawing.Size(100, 22);
-            this.LucroOUPrejuizoAcumulado.TabIndex = 1;
-            // 
-            // LucroantesdoIR
-            // 
-            this.LucroantesdoIR.Location = new System.Drawing.Point(229, 140);
-            this.LucroantesdoIR.Name = "LucroantesdoIR";
-            this.LucroantesdoIR.Size = new System.Drawing.Size(100, 22);
-            this.LucroantesdoIR.TabIndex = 2;
-            // 
-            // LucroBruto
-            // 
-            this.LucroBruto.Location = new System.Drawing.Point(6, 165);
-            this.LucroBruto.Name = "LucroBruto";
-            this.LucroBruto.Size = new System.Drawing.Size(100, 22);
-            this.LucroBruto.TabIndex = 3;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(112, 169);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(82, 16);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "Lucro Bruto";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(615, 89);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(177, 16);
-            this.label21.TabIndex = 5;
-            this.label21.Text = "Lucro/Prejuizo Acumulado";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(335, 144);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(119, 16);
-            this.label22.TabIndex = 6;
-            this.label22.Text = "Lucro antes do IR";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(112, 109);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(90, 16);
-            this.label23.TabIndex = 7;
-            this.label23.Text = "Receitas Liq.";
-            // 
-            // Calcular
-            // 
-            this.Calcular.Location = new System.Drawing.Point(416, 407);
-            this.Calcular.Name = "Calcular";
-            this.Calcular.Size = new System.Drawing.Size(75, 23);
-            this.Calcular.TabIndex = 60;
-            this.Calcular.Text = "Calcular";
-            this.Calcular.UseVisualStyleBackColor = true;
-            this.Calcular.Click += new System.EventHandler(this.Calcular_Click);
-            // 
-            // Caixa1
-            // 
-            this.Caixa1.Location = new System.Drawing.Point(12, 62);
-            this.Caixa1.Name = "Caixa1";
-            this.Caixa1.Size = new System.Drawing.Size(100, 22);
-            this.Caixa1.TabIndex = 39;
-            // 
-            // Estoque1
-            // 
-            this.Estoque1.Location = new System.Drawing.Point(12, 114);
-            this.Estoque1.Name = "Estoque1";
-            this.Estoque1.Size = new System.Drawing.Size(100, 22);
-            this.Estoque1.TabIndex = 40;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(118, 91);
-            this.label24.Name = "label24";
-            this.label24.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label24.Size = new System.Drawing.Size(111, 16);
-            this.label24.TabIndex = 44;
-            this.label24.Text = "Bancos C/ Movimento";
-            // 
-            // BancosCMovimento1
-            // 
-            this.BancosCMovimento1.Location = new System.Drawing.Point(12, 88);
-            this.BancosCMovimento1.Name = "BancosCMovimento1";
-            this.BancosCMovimento1.Size = new System.Drawing.Size(100, 22);
-            this.BancosCMovimento1.TabIndex = 43;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(118, 117);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(46, 16);
-            this.label25.TabIndex = 41;
-            this.label25.Text = "Estoque";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(118, 65);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(39, 16);
-            this.label26.TabIndex = 42;
-            this.label26.Text = "Caixa ";
-            // 
-            // Contasaareceber1
-            // 
-            this.Contasaareceber1.Location = new System.Drawing.Point(12, 142);
-            this.Contasaareceber1.Name = "Contasaareceber1";
-            this.Contasaareceber1.Size = new System.Drawing.Size(100, 22);
-            this.Contasaareceber1.TabIndex = 45;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(118, 145);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(94, 16);
-            this.label27.TabIndex = 46;
-            this.label27.Text = "Contas a Receber";
-            // 
-            // computadores1
-            // 
-            this.computadores1.Location = new System.Drawing.Point(12, 304);
-            this.computadores1.Name = "computadores1";
-            this.computadores1.Size = new System.Drawing.Size(100, 22);
-            this.computadores1.TabIndex = 53;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(118, 307);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(77, 16);
-            this.label28.TabIndex = 54;
-            this.label28.Text = "Computadores";
-            // 
-            // Veiculos1
-            // 
-            this.Veiculos1.Location = new System.Drawing.Point(12, 224);
-            this.Veiculos1.Name = "Veiculos1";
-            this.Veiculos1.Size = new System.Drawing.Size(100, 22);
-            this.Veiculos1.TabIndex = 47;
-            // 
-            // Instalacoes1
-            // 
-            this.Instalacoes1.Location = new System.Drawing.Point(12, 276);
-            this.Instalacoes1.Name = "Instalacoes1";
-            this.Instalacoes1.Size = new System.Drawing.Size(100, 22);
-            this.Instalacoes1.TabIndex = 48;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(118, 253);
-            this.label29.Name = "label29";
-            this.label29.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label29.Size = new System.Drawing.Size(45, 16);
-            this.label29.TabIndex = 52;
-            this.label29.Text = "Móveis ";
-            // 
-            // Moveis1
-            // 
-            this.Moveis1.Location = new System.Drawing.Point(12, 250);
-            this.Moveis1.Name = "Moveis1";
-            this.Moveis1.Size = new System.Drawing.Size(100, 22);
-            this.Moveis1.TabIndex = 51;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(118, 279);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(60, 16);
-            this.label30.TabIndex = 49;
-            this.label30.Text = "Instalações";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(118, 227);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(47, 16);
-            this.label31.TabIndex = 50;
-            this.label31.Text = "Veículos";
-            // 
-            // maquinas1
-            // 
-            this.maquinas1.Location = new System.Drawing.Point(12, 332);
-            this.maquinas1.Name = "maquinas1";
-            this.maquinas1.Size = new System.Drawing.Size(100, 22);
-            this.maquinas1.TabIndex = 55;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(118, 335);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(54, 16);
-            this.label32.TabIndex = 56;
-            this.label32.Text = "Maquinas";
-            // 
-            // contasareceber2
-            // 
-            this.contasareceber2.Location = new System.Drawing.Point(263, 145);
-            this.contasareceber2.Name = "contasareceber2";
-            this.contasareceber2.Size = new System.Drawing.Size(100, 22);
-            this.contasareceber2.TabIndex = 63;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(369, 148);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(94, 16);
-            this.label33.TabIndex = 64;
-            this.label33.Text = "Contas a Receber";
-            // 
-            // caixa2
-            // 
-            this.caixa2.Location = new System.Drawing.Point(263, 65);
-            this.caixa2.Name = "caixa2";
-            this.caixa2.Size = new System.Drawing.Size(100, 22);
-            this.caixa2.TabIndex = 57;
-            // 
-            // estoque2
-            // 
-            this.estoque2.Location = new System.Drawing.Point(263, 117);
-            this.estoque2.Name = "estoque2";
-            this.estoque2.Size = new System.Drawing.Size(100, 22);
-            this.estoque2.TabIndex = 58;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(369, 94);
-            this.label34.Name = "label34";
-            this.label34.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label34.Size = new System.Drawing.Size(111, 16);
-            this.label34.TabIndex = 62;
-            this.label34.Text = "Bancos C/ Movimento";
-            // 
-            // BancosCMovimento2
-            // 
-            this.BancosCMovimento2.Location = new System.Drawing.Point(263, 91);
-            this.BancosCMovimento2.Name = "BancosCMovimento2";
-            this.BancosCMovimento2.Size = new System.Drawing.Size(100, 22);
-            this.BancosCMovimento2.TabIndex = 61;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(369, 120);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(46, 16);
-            this.label35.TabIndex = 59;
-            this.label35.Text = "Estoque";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(369, 68);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(39, 16);
-            this.label36.TabIndex = 60;
-            this.label36.Text = "Caixa ";
-            // 
-            // maquinas2
-            // 
-            this.maquinas2.Location = new System.Drawing.Point(263, 335);
-            this.maquinas2.Name = "maquinas2";
-            this.maquinas2.Size = new System.Drawing.Size(100, 22);
-            this.maquinas2.TabIndex = 73;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(369, 338);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(54, 16);
-            this.label37.TabIndex = 74;
-            this.label37.Text = "Maquinas";
-            // 
-            // computadores2
-            // 
-            this.computadores2.Location = new System.Drawing.Point(263, 307);
-            this.computadores2.Name = "computadores2";
-            this.computadores2.Size = new System.Drawing.Size(100, 22);
-            this.computadores2.TabIndex = 71;
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(369, 310);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(77, 16);
-            this.label38.TabIndex = 72;
-            this.label38.Text = "Computadores";
-            // 
-            // veiculos2
-            // 
-            this.veiculos2.Location = new System.Drawing.Point(263, 227);
-            this.veiculos2.Name = "veiculos2";
-            this.veiculos2.Size = new System.Drawing.Size(100, 22);
-            this.veiculos2.TabIndex = 65;
-            // 
-            // Instalacoes2
-            // 
-            this.Instalacoes2.Location = new System.Drawing.Point(263, 279);
-            this.Instalacoes2.Name = "Instalacoes2";
-            this.Instalacoes2.Size = new System.Drawing.Size(100, 22);
-            this.Instalacoes2.TabIndex = 66;
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(369, 256);
-            this.label39.Name = "label39";
-            this.label39.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label39.Size = new System.Drawing.Size(45, 16);
-            this.label39.TabIndex = 70;
-            this.label39.Text = "Móveis ";
-            // 
-            // Moveis2
-            // 
-            this.Moveis2.Location = new System.Drawing.Point(263, 253);
-            this.Moveis2.Name = "Moveis2";
-            this.Moveis2.Size = new System.Drawing.Size(100, 22);
-            this.Moveis2.TabIndex = 69;
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(369, 282);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(60, 16);
-            this.label40.TabIndex = 67;
-            this.label40.Text = "Instalações";
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(369, 230);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(47, 16);
-            this.label41.TabIndex = 68;
-            this.label41.Text = "Veículos";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(12, 145);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 71;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(118, 148);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(79, 16);
-            this.label42.TabIndex = 72;
-            this.label42.Text = "Financiamento ";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(12, 65);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 65;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(12, 117);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 66;
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(118, 94);
-            this.label43.Name = "label43";
-            this.label43.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label43.Size = new System.Drawing.Size(75, 16);
-            this.label43.TabIndex = 70;
-            this.label43.Text = "Fornecedores";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(12, 91);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 69;
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(118, 120);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(82, 16);
-            this.label44.TabIndex = 67;
-            this.label44.Text = "Contas a Pagar";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(118, 68);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(144, 16);
-            this.label45.TabIndex = 68;
-            this.label45.Text = "Salários e Encargos a Pagar";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(12, 257);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 75;
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(118, 260);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(143, 16);
-            this.label46.TabIndex = 76;
-            this.label46.Text = "Lucros ou Prej. Acumulados ";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(12, 229);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 22);
-            this.textBox6.TabIndex = 73;
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(118, 232);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(71, 16);
-            this.label47.TabIndex = 74;
-            this.label47.Text = "Capital Social";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(265, 148);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 22);
-            this.textBox7.TabIndex = 83;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(265, 68);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 22);
-            this.textBox8.TabIndex = 77;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(265, 120);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 22);
-            this.textBox9.TabIndex = 78;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(265, 94);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 22);
-            this.textBox10.TabIndex = 81;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(266, 262);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 22);
-            this.textBox11.TabIndex = 87;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(266, 234);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 22);
-            this.textBox12.TabIndex = 85;
             // 
             // label1
             // 
@@ -1198,98 +931,205 @@
             this.label53.TabIndex = 88;
             this.label53.Text = "Circulante";
             // 
-            // textBox13
+            // PASSIVOLUCROOUPREJUIZO2
             // 
-            this.textBox13.Location = new System.Drawing.Point(229, 82);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(100, 22);
-            this.textBox13.TabIndex = 83;
+            this.PASSIVOLUCROOUPREJUIZO2.Location = new System.Drawing.Point(266, 262);
+            this.PASSIVOLUCROOUPREJUIZO2.Name = "PASSIVOLUCROOUPREJUIZO2";
+            this.PASSIVOLUCROOUPREJUIZO2.Size = new System.Drawing.Size(100, 22);
+            this.PASSIVOLUCROOUPREJUIZO2.TabIndex = 87;
             // 
-            // label54
+            // PASSIVOCAPITALSOCIAL2
             // 
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(335, 85);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(46, 16);
-            this.label54.TabIndex = 84;
-            this.label54.Text = "Salarios";
+            this.PASSIVOCAPITALSOCIAL2.Location = new System.Drawing.Point(266, 234);
+            this.PASSIVOCAPITALSOCIAL2.Name = "PASSIVOCAPITALSOCIAL2";
+            this.PASSIVOCAPITALSOCIAL2.Size = new System.Drawing.Size(100, 22);
+            this.PASSIVOCAPITALSOCIAL2.TabIndex = 85;
             // 
-            // textBox14
+            // PASSIVOFINANCIAMENTO2
             // 
-            this.textBox14.Location = new System.Drawing.Point(6, 137);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(100, 22);
-            this.textBox14.TabIndex = 81;
+            this.PASSIVOFINANCIAMENTO2.Location = new System.Drawing.Point(265, 148);
+            this.PASSIVOFINANCIAMENTO2.Name = "PASSIVOFINANCIAMENTO2";
+            this.PASSIVOFINANCIAMENTO2.Size = new System.Drawing.Size(100, 22);
+            this.PASSIVOFINANCIAMENTO2.TabIndex = 83;
             // 
-            // label55
+            // PASSIVOSALARIOSENCARGOSPAGAR2
             // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(112, 140);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(32, 16);
-            this.label55.TabIndex = 82;
-            this.label55.Text = "CMV";
+            this.PASSIVOSALARIOSENCARGOSPAGAR2.Location = new System.Drawing.Point(265, 68);
+            this.PASSIVOSALARIOSENCARGOSPAGAR2.Name = "PASSIVOSALARIOSENCARGOSPAGAR2";
+            this.PASSIVOSALARIOSENCARGOSPAGAR2.Size = new System.Drawing.Size(100, 22);
+            this.PASSIVOSALARIOSENCARGOSPAGAR2.TabIndex = 77;
             // 
-            // textBox15
+            // PASSIVOCONTASAPAGAR2
             // 
-            this.textBox15.Location = new System.Drawing.Point(6, 26);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(100, 22);
-            this.textBox15.TabIndex = 75;
+            this.PASSIVOCONTASAPAGAR2.Location = new System.Drawing.Point(265, 120);
+            this.PASSIVOCONTASAPAGAR2.Name = "PASSIVOCONTASAPAGAR2";
+            this.PASSIVOCONTASAPAGAR2.Size = new System.Drawing.Size(100, 22);
+            this.PASSIVOCONTASAPAGAR2.TabIndex = 78;
             // 
-            // textBox16
+            // PASSIVOFONECEDORES2
             // 
-            this.textBox16.Location = new System.Drawing.Point(6, 78);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(100, 22);
-            this.textBox16.TabIndex = 76;
+            this.PASSIVOFONECEDORES2.Location = new System.Drawing.Point(265, 94);
+            this.PASSIVOFONECEDORES2.Name = "PASSIVOFONECEDORES2";
+            this.PASSIVOFONECEDORES2.Size = new System.Drawing.Size(100, 22);
+            this.PASSIVOFONECEDORES2.TabIndex = 81;
             // 
-            // label56
+            // PASSIVOLUCROOUPREJUIZO
             // 
-            this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(112, 55);
-            this.label56.Name = "label56";
-            this.label56.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label56.Size = new System.Drawing.Size(44, 16);
-            this.label56.TabIndex = 80;
-            this.label56.Text = "Vendas";
+            this.PASSIVOLUCROOUPREJUIZO.Location = new System.Drawing.Point(12, 257);
+            this.PASSIVOLUCROOUPREJUIZO.Name = "PASSIVOLUCROOUPREJUIZO";
+            this.PASSIVOLUCROOUPREJUIZO.Size = new System.Drawing.Size(100, 22);
+            this.PASSIVOLUCROOUPREJUIZO.TabIndex = 75;
             // 
-            // textBox17
+            // label46
             // 
-            this.textBox17.Location = new System.Drawing.Point(6, 52);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(100, 22);
-            this.textBox17.TabIndex = 79;
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.Location = new System.Drawing.Point(118, 260);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(143, 16);
+            this.label46.TabIndex = 76;
+            this.label46.Text = "Lucros ou Prej. Acumulados ";
             // 
-            // label57
+            // PASSIVOCAPITALSOCIAL
             // 
-            this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(112, 81);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(95, 16);
-            this.label57.TabIndex = 77;
-            this.label57.Text = "ICMS S/ VENDAS";
+            this.PASSIVOCAPITALSOCIAL.Location = new System.Drawing.Point(12, 229);
+            this.PASSIVOCAPITALSOCIAL.Name = "PASSIVOCAPITALSOCIAL";
+            this.PASSIVOCAPITALSOCIAL.Size = new System.Drawing.Size(100, 22);
+            this.PASSIVOCAPITALSOCIAL.TabIndex = 73;
             // 
-            // label58
+            // label47
             // 
-            this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(112, 29);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(48, 16);
-            this.label58.TabIndex = 78;
-            this.label58.Text = "Receitas";
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.Location = new System.Drawing.Point(118, 232);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(71, 16);
+            this.label47.TabIndex = 74;
+            this.label47.Text = "Capital Social";
             // 
-            // textBox18
+            // PASSIVOFINANCIAMENTO
             // 
-            this.textBox18.Location = new System.Drawing.Point(229, 29);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(100, 22);
-            this.textBox18.TabIndex = 93;
+            this.PASSIVOFINANCIAMENTO.Location = new System.Drawing.Point(12, 145);
+            this.PASSIVOFINANCIAMENTO.Name = "PASSIVOFINANCIAMENTO";
+            this.PASSIVOFINANCIAMENTO.Size = new System.Drawing.Size(100, 22);
+            this.PASSIVOFINANCIAMENTO.TabIndex = 71;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(118, 148);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(79, 16);
+            this.label42.TabIndex = 72;
+            this.label42.Text = "Financiamento ";
+            // 
+            // PASSIVOSALARIOSENCARGOSPAGAR
+            // 
+            this.PASSIVOSALARIOSENCARGOSPAGAR.Location = new System.Drawing.Point(12, 65);
+            this.PASSIVOSALARIOSENCARGOSPAGAR.Name = "PASSIVOSALARIOSENCARGOSPAGAR";
+            this.PASSIVOSALARIOSENCARGOSPAGAR.Size = new System.Drawing.Size(100, 22);
+            this.PASSIVOSALARIOSENCARGOSPAGAR.TabIndex = 65;
+            // 
+            // PASSIVOCONTASAPAGAR
+            // 
+            this.PASSIVOCONTASAPAGAR.Location = new System.Drawing.Point(12, 117);
+            this.PASSIVOCONTASAPAGAR.Name = "PASSIVOCONTASAPAGAR";
+            this.PASSIVOCONTASAPAGAR.Size = new System.Drawing.Size(100, 22);
+            this.PASSIVOCONTASAPAGAR.TabIndex = 66;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Location = new System.Drawing.Point(118, 94);
+            this.label43.Name = "label43";
+            this.label43.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label43.Size = new System.Drawing.Size(75, 16);
+            this.label43.TabIndex = 70;
+            this.label43.Text = "Fornecedores";
+            // 
+            // PASSIVOFONECEDORES
+            // 
+            this.PASSIVOFONECEDORES.Location = new System.Drawing.Point(12, 91);
+            this.PASSIVOFONECEDORES.Name = "PASSIVOFONECEDORES";
+            this.PASSIVOFONECEDORES.Size = new System.Drawing.Size(100, 22);
+            this.PASSIVOFONECEDORES.TabIndex = 69;
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.Location = new System.Drawing.Point(118, 120);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(82, 16);
+            this.label44.TabIndex = 67;
+            this.label44.Text = "Contas a Pagar";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.Location = new System.Drawing.Point(118, 68);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(144, 16);
+            this.label45.TabIndex = 68;
+            this.label45.Text = "Salários e Encargos a Pagar";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(118, 207);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(106, 16);
+            this.label2.TabIndex = 59;
+            this.label2.Text = "Patrimonio Liq.";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.DESPESAS);
+            this.groupBox3.Controls.Add(this.label59);
+            this.groupBox3.Controls.Add(this.luzaguatelefone);
+            this.groupBox3.Controls.Add(this.label60);
+            this.groupBox3.Controls.Add(this.ALUGUEL);
+            this.groupBox3.Controls.Add(this.contribuicaosocial);
+            this.groupBox3.Controls.Add(this.label61);
+            this.groupBox3.Controls.Add(this.Impostederenda);
+            this.groupBox3.Controls.Add(this.label62);
+            this.groupBox3.Controls.Add(this.label63);
+            this.groupBox3.Controls.Add(this.SALARIOS);
+            this.groupBox3.Controls.Add(this.label54);
+            this.groupBox3.Controls.Add(this.label23);
+            this.groupBox3.Controls.Add(this.CMV);
+            this.groupBox3.Controls.Add(this.label22);
+            this.groupBox3.Controls.Add(this.label55);
+            this.groupBox3.Controls.Add(this.label21);
+            this.groupBox3.Controls.Add(this.receita);
+            this.groupBox3.Controls.Add(this.label12);
+            this.groupBox3.Controls.Add(this.icmssemvendas);
+            this.groupBox3.Controls.Add(this.LucroBruto);
+            this.groupBox3.Controls.Add(this.label56);
+            this.groupBox3.Controls.Add(this.LucroantesdoIR);
+            this.groupBox3.Controls.Add(this.Vendas);
+            this.groupBox3.Controls.Add(this.LucroOUPrejuizoAcumulado);
+            this.groupBox3.Controls.Add(this.label57);
+            this.groupBox3.Controls.Add(this.Receitaliquida);
+            this.groupBox3.Controls.Add(this.label58);
+            this.groupBox3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Location = new System.Drawing.Point(3, 436);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(794, 207);
+            this.groupBox3.TabIndex = 59;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "EMPRESA Demonstração de resultados de Exercicio";
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
+            // 
+            // DESPESAS
+            // 
+            this.DESPESAS.Location = new System.Drawing.Point(229, 29);
+            this.DESPESAS.Name = "DESPESAS";
+            this.DESPESAS.Size = new System.Drawing.Size(100, 22);
+            this.DESPESAS.TabIndex = 93;
             // 
             // label59
             // 
@@ -1301,12 +1141,12 @@
             this.label59.TabIndex = 94;
             this.label59.Text = "Despesas";
             // 
-            // textBox19
+            // luzaguatelefone
             // 
-            this.textBox19.Location = new System.Drawing.Point(229, 110);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(100, 22);
-            this.textBox19.TabIndex = 91;
+            this.luzaguatelefone.Location = new System.Drawing.Point(229, 110);
+            this.luzaguatelefone.Name = "luzaguatelefone";
+            this.luzaguatelefone.Size = new System.Drawing.Size(100, 22);
+            this.luzaguatelefone.TabIndex = 91;
             // 
             // label60
             // 
@@ -1318,19 +1158,19 @@
             this.label60.TabIndex = 92;
             this.label60.Text = "Luz/AGUA/TELEFONE";
             // 
-            // textBox20
+            // ALUGUEL
             // 
-            this.textBox20.Location = new System.Drawing.Point(229, 54);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(100, 22);
-            this.textBox20.TabIndex = 85;
+            this.ALUGUEL.Location = new System.Drawing.Point(229, 54);
+            this.ALUGUEL.Name = "ALUGUEL";
+            this.ALUGUEL.Size = new System.Drawing.Size(100, 22);
+            this.ALUGUEL.TabIndex = 85;
             // 
-            // textBox21
+            // contribuicaosocial
             // 
-            this.textBox21.Location = new System.Drawing.Point(509, 58);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(100, 22);
-            this.textBox21.TabIndex = 86;
+            this.contribuicaosocial.Location = new System.Drawing.Point(509, 58);
+            this.contribuicaosocial.Name = "contribuicaosocial";
+            this.contribuicaosocial.Size = new System.Drawing.Size(100, 22);
+            this.contribuicaosocial.TabIndex = 86;
             // 
             // label61
             // 
@@ -1343,12 +1183,12 @@
             this.label61.TabIndex = 90;
             this.label61.Text = "IR";
             // 
-            // textBox22
+            // Impostederenda
             // 
-            this.textBox22.Location = new System.Drawing.Point(509, 32);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(100, 22);
-            this.textBox22.TabIndex = 89;
+            this.Impostederenda.Location = new System.Drawing.Point(509, 32);
+            this.Impostederenda.Name = "Impostederenda";
+            this.Impostederenda.Size = new System.Drawing.Size(100, 22);
+            this.Impostederenda.TabIndex = 89;
             // 
             // label62
             // 
@@ -1369,6 +1209,166 @@
             this.label63.Size = new System.Drawing.Size(43, 16);
             this.label63.TabIndex = 88;
             this.label63.Text = "Aluguel";
+            // 
+            // SALARIOS
+            // 
+            this.SALARIOS.Location = new System.Drawing.Point(229, 82);
+            this.SALARIOS.Name = "SALARIOS";
+            this.SALARIOS.Size = new System.Drawing.Size(100, 22);
+            this.SALARIOS.TabIndex = 83;
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.Location = new System.Drawing.Point(335, 85);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(46, 16);
+            this.label54.TabIndex = 84;
+            this.label54.Text = "Salarios";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(112, 109);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(90, 16);
+            this.label23.TabIndex = 7;
+            this.label23.Text = "Receitas Liq.";
+            // 
+            // CMV
+            // 
+            this.CMV.Location = new System.Drawing.Point(6, 137);
+            this.CMV.Name = "CMV";
+            this.CMV.Size = new System.Drawing.Size(100, 22);
+            this.CMV.TabIndex = 81;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(335, 144);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(119, 16);
+            this.label22.TabIndex = 6;
+            this.label22.Text = "Lucro antes do IR";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.Location = new System.Drawing.Point(112, 140);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(32, 16);
+            this.label55.TabIndex = 82;
+            this.label55.Text = "CMV";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(615, 89);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(177, 16);
+            this.label21.TabIndex = 5;
+            this.label21.Text = "Lucro/Prejuizo Acumulado";
+            // 
+            // receita
+            // 
+            this.receita.Location = new System.Drawing.Point(6, 26);
+            this.receita.Name = "receita";
+            this.receita.Size = new System.Drawing.Size(100, 22);
+            this.receita.TabIndex = 75;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(112, 169);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(82, 16);
+            this.label12.TabIndex = 4;
+            this.label12.Text = "Lucro Bruto";
+            // 
+            // icmssemvendas
+            // 
+            this.icmssemvendas.Location = new System.Drawing.Point(6, 78);
+            this.icmssemvendas.Name = "icmssemvendas";
+            this.icmssemvendas.Size = new System.Drawing.Size(100, 22);
+            this.icmssemvendas.TabIndex = 76;
+            // 
+            // LucroBruto
+            // 
+            this.LucroBruto.Location = new System.Drawing.Point(6, 165);
+            this.LucroBruto.Name = "LucroBruto";
+            this.LucroBruto.Size = new System.Drawing.Size(100, 22);
+            this.LucroBruto.TabIndex = 3;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.Location = new System.Drawing.Point(112, 55);
+            this.label56.Name = "label56";
+            this.label56.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label56.Size = new System.Drawing.Size(44, 16);
+            this.label56.TabIndex = 80;
+            this.label56.Text = "Vendas";
+            // 
+            // LucroantesdoIR
+            // 
+            this.LucroantesdoIR.Location = new System.Drawing.Point(229, 140);
+            this.LucroantesdoIR.Name = "LucroantesdoIR";
+            this.LucroantesdoIR.Size = new System.Drawing.Size(100, 22);
+            this.LucroantesdoIR.TabIndex = 2;
+            // 
+            // Vendas
+            // 
+            this.Vendas.Location = new System.Drawing.Point(6, 52);
+            this.Vendas.Name = "Vendas";
+            this.Vendas.Size = new System.Drawing.Size(100, 22);
+            this.Vendas.TabIndex = 79;
+            // 
+            // LucroOUPrejuizoAcumulado
+            // 
+            this.LucroOUPrejuizoAcumulado.Location = new System.Drawing.Point(509, 86);
+            this.LucroOUPrejuizoAcumulado.Name = "LucroOUPrejuizoAcumulado";
+            this.LucroOUPrejuizoAcumulado.Size = new System.Drawing.Size(100, 22);
+            this.LucroOUPrejuizoAcumulado.TabIndex = 1;
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.Location = new System.Drawing.Point(112, 81);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(95, 16);
+            this.label57.TabIndex = 77;
+            this.label57.Text = "ICMS S/ VENDAS";
+            // 
+            // Receitaliquida
+            // 
+            this.Receitaliquida.Location = new System.Drawing.Point(6, 106);
+            this.Receitaliquida.Name = "Receitaliquida";
+            this.Receitaliquida.Size = new System.Drawing.Size(100, 22);
+            this.Receitaliquida.TabIndex = 0;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.Location = new System.Drawing.Point(112, 29);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(48, 16);
+            this.label58.TabIndex = 78;
+            this.label58.Text = "Receitas";
+            // 
+            // Calcular
+            // 
+            this.Calcular.Location = new System.Drawing.Point(416, 407);
+            this.Calcular.Name = "Calcular";
+            this.Calcular.Size = new System.Drawing.Size(75, 23);
+            this.Calcular.TabIndex = 60;
+            this.Calcular.Text = "Calcular";
+            this.Calcular.UseVisualStyleBackColor = true;
+            this.Calcular.Click += new System.EventHandler(this.Calcular_Click);
             // 
             // FormDRE
             // 
@@ -1484,42 +1484,42 @@
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox PASSIVOLUCROOUPREJUIZO2;
+        private System.Windows.Forms.TextBox PASSIVOCAPITALSOCIAL2;
+        private System.Windows.Forms.TextBox PASSIVOFINANCIAMENTO2;
+        private System.Windows.Forms.TextBox PASSIVOSALARIOSENCARGOSPAGAR2;
+        private System.Windows.Forms.TextBox PASSIVOCONTASAPAGAR2;
+        private System.Windows.Forms.TextBox PASSIVOFONECEDORES2;
+        private System.Windows.Forms.TextBox PASSIVOLUCROOUPREJUIZO;
         private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox PASSIVOCAPITALSOCIAL;
         private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox PASSIVOFINANCIAMENTO;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox PASSIVOSALARIOSENCARGOSPAGAR;
+        private System.Windows.Forms.TextBox PASSIVOCONTASAPAGAR;
         private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox PASSIVOFONECEDORES;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox DESPESAS;
         private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox luzaguatelefone;
         private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox ALUGUEL;
+        private System.Windows.Forms.TextBox contribuicaosocial;
         private System.Windows.Forms.Label label61;
-        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox Impostederenda;
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox SALARIOS;
         private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox CMV;
         private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox receita;
+        private System.Windows.Forms.TextBox icmssemvendas;
         private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox Vendas;
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Label label58;
     }
