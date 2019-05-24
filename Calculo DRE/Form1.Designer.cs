@@ -156,6 +156,7 @@
             this.Receitaliquida = new System.Windows.Forms.TextBox();
             this.label58 = new System.Windows.Forms.Label();
             this.Calcular = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1118,11 +1119,10 @@
             this.groupBox3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(3, 436);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(794, 207);
+            this.groupBox3.Size = new System.Drawing.Size(746, 207);
             this.groupBox3.TabIndex = 59;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "EMPRESA Demonstração de resultados de Exercicio";
-            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // DESPESAS
             // 
@@ -1167,7 +1167,7 @@
             // 
             // contribuicaosocial
             // 
-            this.contribuicaosocial.Location = new System.Drawing.Point(509, 58);
+            this.contribuicaosocial.Location = new System.Drawing.Point(467, 58);
             this.contribuicaosocial.Name = "contribuicaosocial";
             this.contribuicaosocial.Size = new System.Drawing.Size(100, 22);
             this.contribuicaosocial.TabIndex = 86;
@@ -1176,7 +1176,7 @@
             // 
             this.label61.AutoSize = true;
             this.label61.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(615, 35);
+            this.label61.Location = new System.Drawing.Point(573, 35);
             this.label61.Name = "label61";
             this.label61.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label61.Size = new System.Drawing.Size(19, 16);
@@ -1185,7 +1185,7 @@
             // 
             // Impostederenda
             // 
-            this.Impostederenda.Location = new System.Drawing.Point(509, 32);
+            this.Impostederenda.Location = new System.Drawing.Point(467, 32);
             this.Impostederenda.Name = "Impostederenda";
             this.Impostederenda.Size = new System.Drawing.Size(100, 22);
             this.Impostederenda.TabIndex = 89;
@@ -1194,7 +1194,7 @@
             // 
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(615, 61);
+            this.label62.Location = new System.Drawing.Point(573, 61);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(98, 16);
             this.label62.TabIndex = 87;
@@ -1265,7 +1265,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(615, 89);
+            this.label21.Location = new System.Drawing.Point(573, 89);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(177, 16);
             this.label21.TabIndex = 5;
@@ -1328,7 +1328,7 @@
             // 
             // LucroOUPrejuizoAcumulado
             // 
-            this.LucroOUPrejuizoAcumulado.Location = new System.Drawing.Point(509, 86);
+            this.LucroOUPrejuizoAcumulado.Location = new System.Drawing.Point(467, 86);
             this.LucroOUPrejuizoAcumulado.Name = "LucroOUPrejuizoAcumulado";
             this.LucroOUPrejuizoAcumulado.Size = new System.Drawing.Size(100, 22);
             this.LucroOUPrejuizoAcumulado.TabIndex = 1;
@@ -1362,19 +1362,29 @@
             // 
             // Calcular
             // 
-            this.Calcular.Location = new System.Drawing.Point(416, 407);
+            this.Calcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Calcular.Location = new System.Drawing.Point(375, 411);
             this.Calcular.Name = "Calcular";
-            this.Calcular.Size = new System.Drawing.Size(75, 23);
+            this.Calcular.Size = new System.Drawing.Size(122, 34);
             this.Calcular.TabIndex = 60;
             this.Calcular.Text = "Calcular";
             this.Calcular.UseVisualStyleBackColor = true;
             this.Calcular.Click += new System.EventHandler(this.Calcular_Click);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(759, 411);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(279, 223);
+            this.richTextBox1.TabIndex = 61;
+            this.richTextBox1.Text = "";
             // 
             // FormDRE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1050, 646);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.Calcular);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -1522,6 +1532,7 @@
         private System.Windows.Forms.TextBox Vendas;
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 

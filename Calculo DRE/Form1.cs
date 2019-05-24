@@ -19,11 +19,40 @@ namespace Calculo_DRE
 
         private void Calcular_Click(object sender, EventArgs e)
         {
+            richTextBox1.Clear();
+            richTextBox1.AppendText(liquidezGeral().ToString());
+
         }
 
-        private void groupBox3_Enter(object sender, EventArgs e)
+        private double LiquidezImediata()
         {
-
+            return (Convert.ToDouble(Caixa1.Text) + Convert.ToDouble(BancosCMovimento1.Text)) / Convert.ToDouble(PassivoCirculante1.Text);
         }
+
+        private double liquidezseca()
+        {
+            return (Convert.ToDouble(AtivoCirculante1.Text) - Convert.ToDouble(Estoque1.Text)) / Convert.ToDouble(PassivoCirculante1.Text);
+        }
+
+        private double liquidezCorrente()
+        {
+            return Convert.ToDouble(AtivoCirculante1.Text) / Convert.ToDouble(PassivoCirculante1.Text);
+        }
+
+        private double liquidezGeral()
+        {
+            return ( Convert.ToDouble(AtivoCirculante1.Text) + Convert.ToDouble(AtivonãoCirculante1.Text)) / ( Convert.ToDouble(PassivoCirculante1.Text) + Convert.ToDouble(PassivoNaoCirculante1.Text));
+        }
+
+        private double analisedeEndividamento()
+        {
+            return Convert.ToDouble(PassivoCirculante1.Text) / (Convert.ToDouble(PassivoCirculante1.Text) + Convert.ToDouble(PASSIVOFINANCIAMENTO.Text));
+        }
+
+        private double participacaodecapitaldeterceiros()
+        {
+            return ( Convert.ToDouble(PassivoCirculante1.Text) + Convert.ToDouble(PASSIVOFINANCIAMENTO.Text) ) / Convert.ToDouble( PassivoPatromnioLiq1.Text);
+        }
+
     }
 }
