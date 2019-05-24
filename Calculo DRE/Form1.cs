@@ -19,11 +19,10 @@ namespace Calculo_DRE
 
         private void Calcular_Click(object sender, EventArgs e)
         {
+        }
 
-
-
-
-
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
 
         }
     }
