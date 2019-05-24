@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -71,7 +72,42 @@ namespace Calculo_DRE
 
         private double girodoativo()
         {
-            return Convert.ToDouble(Vendas.Text) / Convert.ToDouble(AtivoTotal1.Text);
+            return Convert.ToDouble(Vendas.Text) / Convert.ToDouble(AtivoTotal1.Text); // REVER
+        }
+
+        private double Lucratividade()
+        {
+            return Convert.ToDouble(LucroBruto.Text) / Convert.ToDouble(Vendas.Text);  //REVER
+        }
+
+        private double prazomediodeestoques()
+        {
+            return Convert.ToDouble(CMV.Text) / Convert.ToDouble(Estoque1.Text);
+        }
+
+        private double prazomedioEstoquesPorperidodo()
+        {
+            return 365  / ( Convert.ToDouble(CMV.Text) / Convert.ToDouble(Estoque1.Text));
+        }
+
+        private double prazomediopagamento()
+        {
+
+        }
+
+        private double prazomediorecebimento()
+        {
+
+        }
+
+        private double analisevertical()
+        {
+
+        }
+
+        private double AnaliseHorizontal()
+        {
+
         }
 
     }
