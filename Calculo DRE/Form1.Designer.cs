@@ -1,6 +1,6 @@
 ﻿namespace Calculo_DRE
 {
-    partial class Form1
+    partial class FormDRE
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,78 +28,79 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.AtivoCirculante1 = new System.Windows.Forms.TextBox();
+            this.AtivonãoCirculante1 = new System.Windows.Forms.TextBox();
+            this.AtivoTotal1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.AtivoTotal2 = new System.Windows.Forms.TextBox();
+            this.AtivoNaoCirculante2 = new System.Windows.Forms.TextBox();
+            this.AtivoCirculante2 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.Imobilizado = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.Imobilizado1 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.AtivoImobilizado2 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.PassivoCirculante1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.PassivoNaoCirculante1 = new System.Windows.Forms.TextBox();
+            this.PassvioPatrimonioLiq2 = new System.Windows.Forms.TextBox();
+            this.PassivoTotal1 = new System.Windows.Forms.TextBox();
+            this.PassivoPatromnioLiq1 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.PassivoCirculante2 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.PassivoNaocirculante2 = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.PassivoTotal2 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.Receitaliquida = new System.Windows.Forms.TextBox();
+            this.LucroOUPrejuizoAcumulado = new System.Windows.Forms.TextBox();
+            this.LucroantesdoIR = new System.Windows.Forms.TextBox();
+            this.LucroBruto = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
+            this.Calcular = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // AtivoCirculante1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 32);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 0;
+            this.AtivoCirculante1.Location = new System.Drawing.Point(12, 32);
+            this.AtivoCirculante1.Name = "AtivoCirculante1";
+            this.AtivoCirculante1.Size = new System.Drawing.Size(100, 22);
+            this.AtivoCirculante1.TabIndex = 0;
             // 
-            // textBox2
+            // AtivonãoCirculante1
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 58);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 1;
+            this.AtivonãoCirculante1.Location = new System.Drawing.Point(12, 58);
+            this.AtivonãoCirculante1.Name = "AtivonãoCirculante1";
+            this.AtivonãoCirculante1.Size = new System.Drawing.Size(100, 22);
+            this.AtivonãoCirculante1.TabIndex = 1;
             // 
-            // textBox3
+            // AtivoTotal1
             // 
-            this.textBox3.Location = new System.Drawing.Point(12, 110);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 2;
+            this.AtivoTotal1.Location = new System.Drawing.Point(12, 110);
+            this.AtivoTotal1.Name = "AtivoTotal1";
+            this.AtivoTotal1.Size = new System.Drawing.Size(100, 22);
+            this.AtivoTotal1.TabIndex = 2;
             // 
             // label3
             // 
@@ -155,26 +156,26 @@
             this.label8.TabIndex = 30;
             this.label8.Text = "Circulante";
             // 
-            // textBox4
+            // AtivoTotal2
             // 
-            this.textBox4.Location = new System.Drawing.Point(226, 116);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 29;
+            this.AtivoTotal2.Location = new System.Drawing.Point(226, 116);
+            this.AtivoTotal2.Name = "AtivoTotal2";
+            this.AtivoTotal2.Size = new System.Drawing.Size(100, 22);
+            this.AtivoTotal2.TabIndex = 29;
             // 
-            // textBox5
+            // AtivoNaoCirculante2
             // 
-            this.textBox5.Location = new System.Drawing.Point(226, 60);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 28;
+            this.AtivoNaoCirculante2.Location = new System.Drawing.Point(226, 60);
+            this.AtivoNaoCirculante2.Name = "AtivoNaoCirculante2";
+            this.AtivoNaoCirculante2.Size = new System.Drawing.Size(100, 22);
+            this.AtivoNaoCirculante2.TabIndex = 28;
             // 
-            // textBox6
+            // AtivoCirculante2
             // 
-            this.textBox6.Location = new System.Drawing.Point(226, 34);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 22);
-            this.textBox6.TabIndex = 27;
+            this.AtivoCirculante2.Location = new System.Drawing.Point(226, 34);
+            this.AtivoCirculante2.Name = "AtivoCirculante2";
+            this.AtivoCirculante2.Size = new System.Drawing.Size(100, 22);
+            this.AtivoCirculante2.TabIndex = 27;
             // 
             // label9
             // 
@@ -203,12 +204,12 @@
             this.Imobilizado.TabIndex = 36;
             this.Imobilizado.Text = "Imobilizado";
             // 
-            // textBox7
+            // Imobilizado1
             // 
-            this.textBox7.Location = new System.Drawing.Point(12, 84);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 22);
-            this.textBox7.TabIndex = 35;
+            this.Imobilizado1.Location = new System.Drawing.Point(12, 84);
+            this.Imobilizado1.Name = "Imobilizado1";
+            this.Imobilizado1.Size = new System.Drawing.Size(100, 22);
+            this.Imobilizado1.TabIndex = 35;
             // 
             // label11
             // 
@@ -219,33 +220,33 @@
             this.label11.TabIndex = 38;
             this.label11.Text = "Imobilizado";
             // 
-            // textBox8
+            // AtivoImobilizado2
             // 
-            this.textBox8.Location = new System.Drawing.Point(226, 89);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 22);
-            this.textBox8.TabIndex = 37;
+            this.AtivoImobilizado2.Location = new System.Drawing.Point(226, 89);
+            this.AtivoImobilizado2.Name = "AtivoImobilizado2";
+            this.AtivoImobilizado2.Size = new System.Drawing.Size(100, 22);
+            this.AtivoImobilizado2.TabIndex = 37;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.AtivoCirculante1);
             this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox8);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.AtivonãoCirculante1);
+            this.groupBox1.Controls.Add(this.AtivoImobilizado2);
+            this.groupBox1.Controls.Add(this.AtivoTotal1);
             this.groupBox1.Controls.Add(this.Imobilizado);
-            this.groupBox1.Controls.Add(this.textBox7);
+            this.groupBox1.Controls.Add(this.Imobilizado1);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.AtivoCirculante2);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.AtivoNaoCirculante2);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.AtivoTotal2);
             this.groupBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(3, 12);
             this.groupBox1.Name = "groupBox1";
@@ -254,12 +255,12 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ativo";
             // 
-            // textBox9
+            // PassivoCirculante1
             // 
-            this.textBox9.Location = new System.Drawing.Point(12, 32);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 22);
-            this.textBox9.TabIndex = 40;
+            this.PassivoCirculante1.Location = new System.Drawing.Point(12, 32);
+            this.PassivoCirculante1.Name = "PassivoCirculante1";
+            this.PassivoCirculante1.Size = new System.Drawing.Size(100, 22);
+            this.PassivoCirculante1.TabIndex = 40;
             // 
             // label1
             // 
@@ -270,33 +271,33 @@
             this.label1.TabIndex = 57;
             this.label1.Text = "Patrimonio Liq.";
             // 
-            // textBox10
+            // PassivoNaoCirculante1
             // 
-            this.textBox10.Location = new System.Drawing.Point(12, 58);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 22);
-            this.textBox10.TabIndex = 41;
+            this.PassivoNaoCirculante1.Location = new System.Drawing.Point(12, 58);
+            this.PassivoNaoCirculante1.Name = "PassivoNaoCirculante1";
+            this.PassivoNaoCirculante1.Size = new System.Drawing.Size(100, 22);
+            this.PassivoNaoCirculante1.TabIndex = 41;
             // 
-            // textBox11
+            // PassvioPatrimonioLiq2
             // 
-            this.textBox11.Location = new System.Drawing.Point(225, 87);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 22);
-            this.textBox11.TabIndex = 56;
+            this.PassvioPatrimonioLiq2.Location = new System.Drawing.Point(225, 87);
+            this.PassvioPatrimonioLiq2.Name = "PassvioPatrimonioLiq2";
+            this.PassvioPatrimonioLiq2.Size = new System.Drawing.Size(100, 22);
+            this.PassvioPatrimonioLiq2.TabIndex = 56;
             // 
-            // textBox12
+            // PassivoTotal1
             // 
-            this.textBox12.Location = new System.Drawing.Point(12, 110);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 22);
-            this.textBox12.TabIndex = 42;
+            this.PassivoTotal1.Location = new System.Drawing.Point(12, 110);
+            this.PassivoTotal1.Name = "PassivoTotal1";
+            this.PassivoTotal1.Size = new System.Drawing.Size(100, 22);
+            this.PassivoTotal1.TabIndex = 42;
             // 
-            // textBox13
+            // PassivoPatromnioLiq1
             // 
-            this.textBox13.Location = new System.Drawing.Point(12, 84);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(100, 22);
-            this.textBox13.TabIndex = 54;
+            this.PassivoPatromnioLiq1.Location = new System.Drawing.Point(12, 84);
+            this.PassivoPatromnioLiq1.Name = "PassivoPatromnioLiq1";
+            this.PassivoPatromnioLiq1.Size = new System.Drawing.Size(100, 22);
+            this.PassivoPatromnioLiq1.TabIndex = 54;
             // 
             // label13
             // 
@@ -352,12 +353,12 @@
             this.label18.TabIndex = 51;
             this.label18.Text = "Não Circulante";
             // 
-            // textBox14
+            // PassivoCirculante2
             // 
-            this.textBox14.Location = new System.Drawing.Point(225, 32);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(100, 22);
-            this.textBox14.TabIndex = 46;
+            this.PassivoCirculante2.Location = new System.Drawing.Point(225, 32);
+            this.PassivoCirculante2.Name = "PassivoCirculante2";
+            this.PassivoCirculante2.Size = new System.Drawing.Size(100, 22);
+            this.PassivoCirculante2.TabIndex = 46;
             // 
             // label19
             // 
@@ -368,12 +369,12 @@
             this.label19.TabIndex = 50;
             this.label19.Text = "Total";
             // 
-            // textBox15
+            // PassivoNaocirculante2
             // 
-            this.textBox15.Location = new System.Drawing.Point(225, 58);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(100, 22);
-            this.textBox15.TabIndex = 47;
+            this.PassivoNaocirculante2.Location = new System.Drawing.Point(225, 58);
+            this.PassivoNaocirculante2.Name = "PassivoNaocirculante2";
+            this.PassivoNaocirculante2.Size = new System.Drawing.Size(100, 22);
+            this.PassivoNaocirculante2.TabIndex = 47;
             // 
             // label20
             // 
@@ -384,32 +385,32 @@
             this.label20.TabIndex = 49;
             this.label20.Text = "Circulante";
             // 
-            // textBox16
+            // PassivoTotal2
             // 
-            this.textBox16.Location = new System.Drawing.Point(225, 114);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(100, 22);
-            this.textBox16.TabIndex = 48;
+            this.PassivoTotal2.Location = new System.Drawing.Point(225, 114);
+            this.PassivoTotal2.Name = "PassivoTotal2";
+            this.PassivoTotal2.Size = new System.Drawing.Size(100, 22);
+            this.PassivoTotal2.TabIndex = 48;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.textBox9);
+            this.groupBox2.Controls.Add(this.PassivoCirculante1);
             this.groupBox2.Controls.Add(this.label18);
-            this.groupBox2.Controls.Add(this.textBox16);
+            this.groupBox2.Controls.Add(this.PassivoTotal2);
             this.groupBox2.Controls.Add(this.label19);
-            this.groupBox2.Controls.Add(this.textBox15);
+            this.groupBox2.Controls.Add(this.PassivoNaocirculante2);
             this.groupBox2.Controls.Add(this.label20);
-            this.groupBox2.Controls.Add(this.textBox10);
-            this.groupBox2.Controls.Add(this.textBox14);
-            this.groupBox2.Controls.Add(this.textBox11);
+            this.groupBox2.Controls.Add(this.PassivoNaoCirculante1);
+            this.groupBox2.Controls.Add(this.PassivoCirculante2);
+            this.groupBox2.Controls.Add(this.PassvioPatrimonioLiq2);
             this.groupBox2.Controls.Add(this.label17);
-            this.groupBox2.Controls.Add(this.textBox12);
+            this.groupBox2.Controls.Add(this.PassivoTotal1);
             this.groupBox2.Controls.Add(this.label16);
             this.groupBox2.Controls.Add(this.label15);
-            this.groupBox2.Controls.Add(this.textBox13);
+            this.groupBox2.Controls.Add(this.PassivoPatromnioLiq1);
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(462, 12);
@@ -434,45 +435,45 @@
             this.groupBox3.Controls.Add(this.label22);
             this.groupBox3.Controls.Add(this.label21);
             this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Controls.Add(this.textBox20);
-            this.groupBox3.Controls.Add(this.textBox19);
-            this.groupBox3.Controls.Add(this.textBox18);
-            this.groupBox3.Controls.Add(this.textBox17);
+            this.groupBox3.Controls.Add(this.LucroBruto);
+            this.groupBox3.Controls.Add(this.LucroantesdoIR);
+            this.groupBox3.Controls.Add(this.LucroOUPrejuizoAcumulado);
+            this.groupBox3.Controls.Add(this.Receitaliquida);
             this.groupBox3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(3, 173);
+            this.groupBox3.Location = new System.Drawing.Point(3, 163);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(444, 178);
+            this.groupBox3.Size = new System.Drawing.Size(453, 188);
             this.groupBox3.TabIndex = 59;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "EMPRESA Demonstração de resultados de Exercicio";
             // 
-            // textBox17
+            // Receitaliquida
             // 
-            this.textBox17.Location = new System.Drawing.Point(6, 35);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(100, 22);
-            this.textBox17.TabIndex = 0;
+            this.Receitaliquida.Location = new System.Drawing.Point(6, 35);
+            this.Receitaliquida.Name = "Receitaliquida";
+            this.Receitaliquida.Size = new System.Drawing.Size(100, 22);
+            this.Receitaliquida.TabIndex = 0;
             // 
-            // textBox18
+            // LucroOUPrejuizoAcumulado
             // 
-            this.textBox18.Location = new System.Drawing.Point(6, 127);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(100, 22);
-            this.textBox18.TabIndex = 1;
+            this.LucroOUPrejuizoAcumulado.Location = new System.Drawing.Point(6, 127);
+            this.LucroOUPrejuizoAcumulado.Name = "LucroOUPrejuizoAcumulado";
+            this.LucroOUPrejuizoAcumulado.Size = new System.Drawing.Size(100, 22);
+            this.LucroOUPrejuizoAcumulado.TabIndex = 1;
             // 
-            // textBox19
+            // LucroantesdoIR
             // 
-            this.textBox19.Location = new System.Drawing.Point(6, 97);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(100, 22);
-            this.textBox19.TabIndex = 2;
+            this.LucroantesdoIR.Location = new System.Drawing.Point(6, 97);
+            this.LucroantesdoIR.Name = "LucroantesdoIR";
+            this.LucroantesdoIR.Size = new System.Drawing.Size(100, 22);
+            this.LucroantesdoIR.TabIndex = 2;
             // 
-            // textBox20
+            // LucroBruto
             // 
-            this.textBox20.Location = new System.Drawing.Point(6, 68);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(100, 22);
-            this.textBox20.TabIndex = 3;
+            this.LucroBruto.Location = new System.Drawing.Point(6, 68);
+            this.LucroBruto.Name = "LucroBruto";
+            this.LucroBruto.Size = new System.Drawing.Size(100, 22);
+            this.LucroBruto.TabIndex = 3;
             // 
             // label12
             // 
@@ -510,15 +511,26 @@
             this.label23.TabIndex = 7;
             this.label23.Text = "Receitas Liq.";
             // 
-            // Form1
+            // Calcular
+            // 
+            this.Calcular.Location = new System.Drawing.Point(462, 174);
+            this.Calcular.Name = "Calcular";
+            this.Calcular.Size = new System.Drawing.Size(75, 23);
+            this.Calcular.TabIndex = 60;
+            this.Calcular.Text = "Calcular";
+            this.Calcular.UseVisualStyleBackColor = true;
+            this.Calcular.Click += new System.EventHandler(this.Calcular_Click);
+            // 
+            // FormDRE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(908, 450);
+            this.Controls.Add(this.Calcular);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
+            this.Name = "FormDRE";
             this.Text = "Dre";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -532,42 +544,42 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox AtivoCirculante1;
+        private System.Windows.Forms.TextBox AtivonãoCirculante1;
+        private System.Windows.Forms.TextBox AtivoTotal1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox AtivoTotal2;
+        private System.Windows.Forms.TextBox AtivoNaoCirculante2;
+        private System.Windows.Forms.TextBox AtivoCirculante2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label Imobilizado;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox Imobilizado1;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox AtivoImobilizado2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox PassivoCirculante1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox PassivoNaoCirculante1;
+        private System.Windows.Forms.TextBox PassvioPatrimonioLiq2;
+        private System.Windows.Forms.TextBox PassivoTotal1;
+        private System.Windows.Forms.TextBox PassivoPatromnioLiq1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox PassivoCirculante2;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox PassivoNaocirculante2;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox PassivoTotal2;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox3;
@@ -575,10 +587,11 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox LucroBruto;
+        private System.Windows.Forms.TextBox LucroantesdoIR;
+        private System.Windows.Forms.TextBox LucroOUPrejuizoAcumulado;
+        private System.Windows.Forms.TextBox Receitaliquida;
+        private System.Windows.Forms.Button Calcular;
     }
 }
 

@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Calculo_DRE
 {
-    public partial class Form1 : Form
+    public partial class FormDRE : Form
     {
-        public Form1()
+        public FormDRE()
         {
             InitializeComponent();
+        }
+
+        private void Calcular_Click(object sender, EventArgs e)
+        {
+
+
+
+
+
+
         }
     }
 }
