@@ -86,6 +86,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.receitaliq2 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -638,11 +639,22 @@
             this.label15.TabIndex = 78;
             this.label15.Text = "Receitas";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(258, 463);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(114, 27);
+            this.button1.TabIndex = 62;
+            this.button1.Text = "Calcular";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // FormEmpresa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(626, 493);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox3);
             this.Name = "FormEmpresa";
@@ -716,5 +728,6 @@
         public System.Windows.Forms.TextBox Vendas;
         public System.Windows.Forms.TextBox LucroOUPrejuizoAcumulado;
         public System.Windows.Forms.TextBox Receitaliquida;
+        private System.Windows.Forms.Button button1;
     }
 }
