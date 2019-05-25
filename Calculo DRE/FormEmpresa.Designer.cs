@@ -648,6 +648,7 @@
             this.button1.TabIndex = 62;
             this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FormEmpresa
             // 
@@ -686,33 +687,19 @@
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox despesas2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox luzaguatelefone2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox aluguel2;
-        private System.Windows.Forms.TextBox contribuicaosocial2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox IR2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox salarios2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox CMV2;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox receita2;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox icmsobrevendas2;
-        private System.Windows.Forms.TextBox lucrobruto2;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox lucrosemIR2;
-        private System.Windows.Forms.TextBox vendas2;
-        private System.Windows.Forms.TextBox lucroouprejuizo2;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox receitaliq2;
         private System.Windows.Forms.Label label15;
         public System.Windows.Forms.TextBox DESPESAS;
         public System.Windows.Forms.TextBox luzaguatelefone;
@@ -729,5 +716,19 @@
         public System.Windows.Forms.TextBox LucroOUPrejuizoAcumulado;
         public System.Windows.Forms.TextBox Receitaliquida;
         private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.TextBox despesas2;
+        public System.Windows.Forms.TextBox luzaguatelefone2;
+        public System.Windows.Forms.TextBox aluguel2;
+        public System.Windows.Forms.TextBox contribuicaosocial2;
+        public System.Windows.Forms.TextBox IR2;
+        public System.Windows.Forms.TextBox salarios2;
+        public System.Windows.Forms.TextBox CMV2;
+        public System.Windows.Forms.TextBox receita2;
+        public System.Windows.Forms.TextBox icmsobrevendas2;
+        public System.Windows.Forms.TextBox lucrobruto2;
+        public System.Windows.Forms.TextBox lucrosemIR2;
+        public System.Windows.Forms.TextBox vendas2;
+        public System.Windows.Forms.TextBox lucroouprejuizo2;
+        public System.Windows.Forms.TextBox receitaliq2;
     }
 }

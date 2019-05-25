@@ -25,6 +25,8 @@ namespace Calculo_DRE
 
         }
 
+        //primeira parte dezembro
+
         private double LiquidezImediata()
         {
             return (Convert.ToDouble(Caixa1.Text) + Convert.ToDouble(BancosCMovimento1.Text)) / Convert.ToDouble(PassivoCirculante1.Text);
@@ -192,6 +194,99 @@ namespace Calculo_DRE
 
 
         }
+
+        private void AnaliseHorizontaPassivolDEZEMBROEJaneiro()
+        {
+            double a =(( Convert.ToDouble(PassivoCirculante2.Text) / Convert.ToDouble(PassivoNaoCirculante1.Text))-1)*100;
+            ////
+            double b =(( Convert.ToDouble(PASSIVOSALARIOSENCARGOSPAGAR2.Text) / Convert.ToDouble(PASSIVOSALARIOSENCARGOSPAGAR.Text))-1)*100;
+            double c =(( Convert.ToDouble(PASSIVOFORNECEDORES2.Text) / Convert.ToDouble(PASSIVOFORNECEDORES.Text))-1)*100;
+            double d =(( Convert.ToDouble(PASSIVOCONTASAPAGAR2.Text) / Convert.ToDouble(PASSIVOCONTASAPAGAR.Text))-1)*100;
+            double e = ((Convert.ToDouble(PASSIVOFINANCIAMENTO2.Text) / Convert.ToDouble(PASSIVOFINANCIAMENTO.Text))-1)*100;
+
+            //////
+            double f = ((Convert.ToDouble(PassivoNaocirculante2.Text) / Convert.ToDouble(PassivoNaoCirculante1.Text))-1)*100;
+            //////
+            double h =(( Convert.ToDouble(PassvioPatrimonioLiq2.Text) / Convert.ToDouble(PassivoPatromnioLiq1.Text))-1)*100;
+
+            double i =(( Convert.ToDouble(PASSIVOCAPITALSOCIAL2.Text) / Convert.ToDouble(PASSIVOCAPITALSOCIAL.Text))-1) *100;
+            double j =(( Convert.ToDouble(PASSIVOLUCROOUPREJUIZO2.Text) / Convert.ToDouble(PASSIVOLUCROOUPREJUIZO.Text))- 1 ) *100;
+        }
+        
+
+        //2 parte janeiro
+
+
+
+        private double LiquidezImediata2()
+        {
+            return (Convert.ToDouble(caixa2.Text) + Convert.ToDouble(BancosCMovimento2.Text)) / Convert.ToDouble(PassivoCirculante2.Text);
+        }
+
+        private double liquidezseca2()
+        {
+            return (Convert.ToDouble(AtivoCirculante2.Text) - Convert.ToDouble(estoque2.Text)) / Convert.ToDouble(PassivoCirculante2.Text);
+        }
+
+        private double liquidezCorrente2()
+        {
+            return Convert.ToDouble(AtivoCirculante2.Text) / Convert.ToDouble(PassivoCirculante2.Text);
+        }
+
+        private double liquidezGeral2()
+        {
+            return (Convert.ToDouble(AtivoCirculante2.Text) + Convert.ToDouble(AtivoNaoCirculante2.Text)) / (Convert.ToDouble(PassivoCirculante2.Text) + Convert.ToDouble(PassivoNaocirculante2.Text));
+        }
+
+
+
+
+        private double analisedeEndividamento2()
+        {
+            return Convert.ToDouble(PassivoCirculante2.Text) / (Convert.ToDouble(PassivoCirculante2.Text) + Convert.ToDouble(PASSIVOFINANCIAMENTO2.Text));
+        }
+
+        private double participacaodecapitaldeterceirosemrelacaoaopatromonioliquido2()
+        {
+            return (Convert.ToDouble(PassivoCirculante2.Text) + Convert.ToDouble(PASSIVOFINANCIAMENTO2.Text)) / Convert.ToDouble(PassvioPatrimonioLiq2.Text);
+        }
+
+        private double participacaodecapitaldeterceirosemrelacaoaoATIVO2()
+        {
+            return (Convert.ToDouble(PassivoCirculante2.Text) + Convert.ToDouble(PASSIVOFINANCIAMENTO2.Text)) / Convert.ToDouble(AtivoTotal2.Text);
+        }
+
+
+        private double garatiadocapitaldeterceiros2()
+        {
+            return Convert.ToDouble(PassvioPatrimonioLiq2.Text) / (Convert.ToDouble(PassivoCirculante2.Text) + Convert.ToDouble(PassivoNaocirculante2.Text));
+        }
+
+        private double graudesolvencia2()
+        {
+            return Convert.ToDouble(AtivoTotal2.Text) / (Convert.ToDouble(PassivoCirculante2.Text) + Convert.ToDouble(PassivoNaocirculante2.Text));
+        }
+
+        private double girodoativo2()
+        {
+            return Convert.ToDouble(form.vendas2.Text) / Convert.ToDouble(AtivoTotal2.Text); // REVER
+        }
+
+        private double Lucratividade2()
+        {
+            return Convert.ToDouble(form.lucrobruto2.Text) / Convert.ToDouble(form.vendas2.Text);  //REVER
+        }
+
+        private double prazomediodeestoques2()
+        {
+            return Convert.ToDouble(form.CMV2.Text) / Convert.ToDouble(estoque2.Text);
+        }
+
+        private double prazomedioEstoquesPorperidodo2()
+        {
+            return 360 / (Convert.ToDouble(form.CMV2.Text) / Convert.ToDouble(estoque2.Text));
+        }
+
 
     }
 }
