@@ -42,7 +42,7 @@
             this.AtivoCirculante2 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.Imobilizado = new System.Windows.Forms.Label();
+            this.label = new System.Windows.Forms.Label();
             this.Imobilizado1 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.AtivoImobilizado2 = new System.Windows.Forms.TextBox();
@@ -112,7 +112,7 @@
             this.PASSIVOFINANCIAMENTO2 = new System.Windows.Forms.TextBox();
             this.PASSIVOSALARIOSENCARGOSPAGAR2 = new System.Windows.Forms.TextBox();
             this.PASSIVOCONTASAPAGAR2 = new System.Windows.Forms.TextBox();
-            this.PASSIVOFONECEDORES2 = new System.Windows.Forms.TextBox();
+            this.PASSIVOFORNECEDORES2 = new System.Windows.Forms.TextBox();
             this.PASSIVOLUCROOUPREJUIZO = new System.Windows.Forms.TextBox();
             this.label46 = new System.Windows.Forms.Label();
             this.PASSIVOCAPITALSOCIAL = new System.Windows.Forms.TextBox();
@@ -122,44 +122,13 @@
             this.PASSIVOSALARIOSENCARGOSPAGAR = new System.Windows.Forms.TextBox();
             this.PASSIVOCONTASAPAGAR = new System.Windows.Forms.TextBox();
             this.label43 = new System.Windows.Forms.Label();
-            this.PASSIVOFONECEDORES = new System.Windows.Forms.TextBox();
+            this.PASSIVOFORNECEDORES = new System.Windows.Forms.TextBox();
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.DESPESAS = new System.Windows.Forms.TextBox();
-            this.label59 = new System.Windows.Forms.Label();
-            this.luzaguatelefone = new System.Windows.Forms.TextBox();
-            this.label60 = new System.Windows.Forms.Label();
-            this.ALUGUEL = new System.Windows.Forms.TextBox();
-            this.contribuicaosocial = new System.Windows.Forms.TextBox();
-            this.label61 = new System.Windows.Forms.Label();
-            this.Impostederenda = new System.Windows.Forms.TextBox();
-            this.label62 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.SALARIOS = new System.Windows.Forms.TextBox();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.CMV = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.receita = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.icmssemvendas = new System.Windows.Forms.TextBox();
-            this.LucroBruto = new System.Windows.Forms.TextBox();
-            this.label56 = new System.Windows.Forms.Label();
-            this.LucroantesdoIR = new System.Windows.Forms.TextBox();
-            this.Vendas = new System.Windows.Forms.TextBox();
-            this.LucroOUPrejuizoAcumulado = new System.Windows.Forms.TextBox();
-            this.label57 = new System.Windows.Forms.Label();
-            this.Receitaliquida = new System.Windows.Forms.TextBox();
-            this.label58 = new System.Windows.Forms.Label();
             this.Calcular = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // AtivoCirculante1
@@ -263,27 +232,27 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(260, 18);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(118, 16);
+            this.label9.Size = new System.Drawing.Size(56, 16);
             this.label9.TabIndex = 33;
-            this.label9.Text = "Ano ou Mes Ativo";
+            this.label9.Text = "Janeiro";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(9, 16);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(118, 16);
+            this.label10.Size = new System.Drawing.Size(73, 16);
             this.label10.TabIndex = 34;
-            this.label10.Text = "Ano ou Mes Ativo";
+            this.label10.Text = "Dezembro";
             // 
-            // Imobilizado
+            // label
             // 
-            this.Imobilizado.AutoSize = true;
-            this.Imobilizado.Location = new System.Drawing.Point(118, 199);
-            this.Imobilizado.Name = "Imobilizado";
-            this.Imobilizado.Size = new System.Drawing.Size(83, 16);
-            this.Imobilizado.TabIndex = 36;
-            this.Imobilizado.Text = "Imobilizado";
+            this.label.AutoSize = true;
+            this.label.Location = new System.Drawing.Point(118, 199);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(83, 16);
+            this.label.TabIndex = 36;
+            this.label.Text = "Imobilizado";
             // 
             // Imobilizado1
             // 
@@ -351,7 +320,7 @@
             this.groupBox1.Controls.Add(this.AtivonãoCirculante1);
             this.groupBox1.Controls.Add(this.AtivoImobilizado2);
             this.groupBox1.Controls.Add(this.AtivoTotal1);
-            this.groupBox1.Controls.Add(this.Imobilizado);
+            this.groupBox1.Controls.Add(this.label);
             this.groupBox1.Controls.Add(this.Imobilizado1);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label10);
@@ -731,9 +700,9 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(23, 16);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(134, 16);
+            this.label14.Size = new System.Drawing.Size(73, 16);
             this.label14.TabIndex = 53;
-            this.label14.Text = "Ano ou Mes Passivo";
+            this.label14.Text = "Dezembro";
             // 
             // label15
             // 
@@ -749,9 +718,9 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(262, 24);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(134, 16);
+            this.label16.Size = new System.Drawing.Size(56, 16);
             this.label16.TabIndex = 52;
-            this.label16.Text = "Ano ou Mes Passivo";
+            this.label16.Text = "Janeiro";
             // 
             // label17
             // 
@@ -800,7 +769,7 @@
             this.groupBox2.Controls.Add(this.PASSIVOFINANCIAMENTO2);
             this.groupBox2.Controls.Add(this.PASSIVOSALARIOSENCARGOSPAGAR2);
             this.groupBox2.Controls.Add(this.PASSIVOCONTASAPAGAR2);
-            this.groupBox2.Controls.Add(this.PASSIVOFONECEDORES2);
+            this.groupBox2.Controls.Add(this.PASSIVOFORNECEDORES2);
             this.groupBox2.Controls.Add(this.PASSIVOLUCROOUPREJUIZO);
             this.groupBox2.Controls.Add(this.label46);
             this.groupBox2.Controls.Add(this.PASSIVOCAPITALSOCIAL);
@@ -810,7 +779,7 @@
             this.groupBox2.Controls.Add(this.PASSIVOSALARIOSENCARGOSPAGAR);
             this.groupBox2.Controls.Add(this.PASSIVOCONTASAPAGAR);
             this.groupBox2.Controls.Add(this.label43);
-            this.groupBox2.Controls.Add(this.PASSIVOFONECEDORES);
+            this.groupBox2.Controls.Add(this.PASSIVOFORNECEDORES);
             this.groupBox2.Controls.Add(this.label44);
             this.groupBox2.Controls.Add(this.label45);
             this.groupBox2.Controls.Add(this.label2);
@@ -967,12 +936,12 @@
             this.PASSIVOCONTASAPAGAR2.Size = new System.Drawing.Size(100, 22);
             this.PASSIVOCONTASAPAGAR2.TabIndex = 78;
             // 
-            // PASSIVOFONECEDORES2
+            // PASSIVOFORNECEDORES2
             // 
-            this.PASSIVOFONECEDORES2.Location = new System.Drawing.Point(265, 94);
-            this.PASSIVOFONECEDORES2.Name = "PASSIVOFONECEDORES2";
-            this.PASSIVOFONECEDORES2.Size = new System.Drawing.Size(100, 22);
-            this.PASSIVOFONECEDORES2.TabIndex = 81;
+            this.PASSIVOFORNECEDORES2.Location = new System.Drawing.Point(265, 94);
+            this.PASSIVOFORNECEDORES2.Name = "PASSIVOFORNECEDORES2";
+            this.PASSIVOFORNECEDORES2.Size = new System.Drawing.Size(100, 22);
+            this.PASSIVOFORNECEDORES2.TabIndex = 81;
             // 
             // PASSIVOLUCROOUPREJUIZO
             // 
@@ -1050,12 +1019,12 @@
             this.label43.TabIndex = 70;
             this.label43.Text = "Fornecedores";
             // 
-            // PASSIVOFONECEDORES
+            // PASSIVOFORNECEDORES
             // 
-            this.PASSIVOFONECEDORES.Location = new System.Drawing.Point(12, 91);
-            this.PASSIVOFONECEDORES.Name = "PASSIVOFONECEDORES";
-            this.PASSIVOFONECEDORES.Size = new System.Drawing.Size(100, 22);
-            this.PASSIVOFONECEDORES.TabIndex = 69;
+            this.PASSIVOFORNECEDORES.Location = new System.Drawing.Point(12, 91);
+            this.PASSIVOFORNECEDORES.Name = "PASSIVOFORNECEDORES";
+            this.PASSIVOFORNECEDORES.Size = new System.Drawing.Size(100, 22);
+            this.PASSIVOFORNECEDORES.TabIndex = 69;
             // 
             // label44
             // 
@@ -1086,307 +1055,23 @@
             this.label2.TabIndex = 59;
             this.label2.Text = "Patrimonio Liq.";
             // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.DESPESAS);
-            this.groupBox3.Controls.Add(this.label59);
-            this.groupBox3.Controls.Add(this.luzaguatelefone);
-            this.groupBox3.Controls.Add(this.label60);
-            this.groupBox3.Controls.Add(this.ALUGUEL);
-            this.groupBox3.Controls.Add(this.contribuicaosocial);
-            this.groupBox3.Controls.Add(this.label61);
-            this.groupBox3.Controls.Add(this.Impostederenda);
-            this.groupBox3.Controls.Add(this.label62);
-            this.groupBox3.Controls.Add(this.label63);
-            this.groupBox3.Controls.Add(this.SALARIOS);
-            this.groupBox3.Controls.Add(this.label54);
-            this.groupBox3.Controls.Add(this.label23);
-            this.groupBox3.Controls.Add(this.CMV);
-            this.groupBox3.Controls.Add(this.label22);
-            this.groupBox3.Controls.Add(this.label55);
-            this.groupBox3.Controls.Add(this.label21);
-            this.groupBox3.Controls.Add(this.receita);
-            this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Controls.Add(this.icmssemvendas);
-            this.groupBox3.Controls.Add(this.LucroBruto);
-            this.groupBox3.Controls.Add(this.label56);
-            this.groupBox3.Controls.Add(this.LucroantesdoIR);
-            this.groupBox3.Controls.Add(this.Vendas);
-            this.groupBox3.Controls.Add(this.LucroOUPrejuizoAcumulado);
-            this.groupBox3.Controls.Add(this.label57);
-            this.groupBox3.Controls.Add(this.Receitaliquida);
-            this.groupBox3.Controls.Add(this.label58);
-            this.groupBox3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(3, 436);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(746, 207);
-            this.groupBox3.TabIndex = 59;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "EMPRESA Demonstração de resultados de Exercicio";
-            // 
-            // DESPESAS
-            // 
-            this.DESPESAS.Location = new System.Drawing.Point(229, 29);
-            this.DESPESAS.Name = "DESPESAS";
-            this.DESPESAS.Size = new System.Drawing.Size(100, 22);
-            this.DESPESAS.TabIndex = 93;
-            // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.Location = new System.Drawing.Point(335, 32);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(55, 16);
-            this.label59.TabIndex = 94;
-            this.label59.Text = "Despesas";
-            // 
-            // luzaguatelefone
-            // 
-            this.luzaguatelefone.Location = new System.Drawing.Point(229, 110);
-            this.luzaguatelefone.Name = "luzaguatelefone";
-            this.luzaguatelefone.Size = new System.Drawing.Size(100, 22);
-            this.luzaguatelefone.TabIndex = 91;
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.Location = new System.Drawing.Point(335, 113);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(118, 16);
-            this.label60.TabIndex = 92;
-            this.label60.Text = "Luz/AGUA/TELEFONE";
-            // 
-            // ALUGUEL
-            // 
-            this.ALUGUEL.Location = new System.Drawing.Point(229, 54);
-            this.ALUGUEL.Name = "ALUGUEL";
-            this.ALUGUEL.Size = new System.Drawing.Size(100, 22);
-            this.ALUGUEL.TabIndex = 85;
-            // 
-            // contribuicaosocial
-            // 
-            this.contribuicaosocial.Location = new System.Drawing.Point(467, 58);
-            this.contribuicaosocial.Name = "contribuicaosocial";
-            this.contribuicaosocial.Size = new System.Drawing.Size(100, 22);
-            this.contribuicaosocial.TabIndex = 86;
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(573, 35);
-            this.label61.Name = "label61";
-            this.label61.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label61.Size = new System.Drawing.Size(19, 16);
-            this.label61.TabIndex = 90;
-            this.label61.Text = "IR";
-            // 
-            // Impostederenda
-            // 
-            this.Impostederenda.Location = new System.Drawing.Point(467, 32);
-            this.Impostederenda.Name = "Impostederenda";
-            this.Impostederenda.Size = new System.Drawing.Size(100, 22);
-            this.Impostederenda.TabIndex = 89;
-            // 
-            // label62
-            // 
-            this.label62.AutoSize = true;
-            this.label62.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(573, 61);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(98, 16);
-            this.label62.TabIndex = 87;
-            this.label62.Text = "Contribuição Social";
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.Location = new System.Drawing.Point(335, 57);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(43, 16);
-            this.label63.TabIndex = 88;
-            this.label63.Text = "Aluguel";
-            // 
-            // SALARIOS
-            // 
-            this.SALARIOS.Location = new System.Drawing.Point(229, 82);
-            this.SALARIOS.Name = "SALARIOS";
-            this.SALARIOS.Size = new System.Drawing.Size(100, 22);
-            this.SALARIOS.TabIndex = 83;
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(335, 85);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(46, 16);
-            this.label54.TabIndex = 84;
-            this.label54.Text = "Salarios";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(112, 109);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(90, 16);
-            this.label23.TabIndex = 7;
-            this.label23.Text = "Receitas Liq.";
-            // 
-            // CMV
-            // 
-            this.CMV.Location = new System.Drawing.Point(6, 137);
-            this.CMV.Name = "CMV";
-            this.CMV.Size = new System.Drawing.Size(100, 22);
-            this.CMV.TabIndex = 81;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(335, 144);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(119, 16);
-            this.label22.TabIndex = 6;
-            this.label22.Text = "Lucro antes do IR";
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(112, 140);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(32, 16);
-            this.label55.TabIndex = 82;
-            this.label55.Text = "CMV";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(573, 89);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(177, 16);
-            this.label21.TabIndex = 5;
-            this.label21.Text = "Lucro/Prejuizo Acumulado";
-            // 
-            // receita
-            // 
-            this.receita.Location = new System.Drawing.Point(6, 26);
-            this.receita.Name = "receita";
-            this.receita.Size = new System.Drawing.Size(100, 22);
-            this.receita.TabIndex = 75;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(112, 169);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(82, 16);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "Lucro Bruto";
-            // 
-            // icmssemvendas
-            // 
-            this.icmssemvendas.Location = new System.Drawing.Point(6, 78);
-            this.icmssemvendas.Name = "icmssemvendas";
-            this.icmssemvendas.Size = new System.Drawing.Size(100, 22);
-            this.icmssemvendas.TabIndex = 76;
-            // 
-            // LucroBruto
-            // 
-            this.LucroBruto.Location = new System.Drawing.Point(6, 165);
-            this.LucroBruto.Name = "LucroBruto";
-            this.LucroBruto.Size = new System.Drawing.Size(100, 22);
-            this.LucroBruto.TabIndex = 3;
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(112, 55);
-            this.label56.Name = "label56";
-            this.label56.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label56.Size = new System.Drawing.Size(44, 16);
-            this.label56.TabIndex = 80;
-            this.label56.Text = "Vendas";
-            // 
-            // LucroantesdoIR
-            // 
-            this.LucroantesdoIR.Location = new System.Drawing.Point(229, 140);
-            this.LucroantesdoIR.Name = "LucroantesdoIR";
-            this.LucroantesdoIR.Size = new System.Drawing.Size(100, 22);
-            this.LucroantesdoIR.TabIndex = 2;
-            // 
-            // Vendas
-            // 
-            this.Vendas.Location = new System.Drawing.Point(6, 52);
-            this.Vendas.Name = "Vendas";
-            this.Vendas.Size = new System.Drawing.Size(100, 22);
-            this.Vendas.TabIndex = 79;
-            // 
-            // LucroOUPrejuizoAcumulado
-            // 
-            this.LucroOUPrejuizoAcumulado.Location = new System.Drawing.Point(467, 86);
-            this.LucroOUPrejuizoAcumulado.Name = "LucroOUPrejuizoAcumulado";
-            this.LucroOUPrejuizoAcumulado.Size = new System.Drawing.Size(100, 22);
-            this.LucroOUPrejuizoAcumulado.TabIndex = 1;
-            // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(112, 81);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(95, 16);
-            this.label57.TabIndex = 77;
-            this.label57.Text = "ICMS S/ VENDAS";
-            // 
-            // Receitaliquida
-            // 
-            this.Receitaliquida.Location = new System.Drawing.Point(6, 106);
-            this.Receitaliquida.Name = "Receitaliquida";
-            this.Receitaliquida.Size = new System.Drawing.Size(100, 22);
-            this.Receitaliquida.TabIndex = 0;
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(112, 29);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(48, 16);
-            this.label58.TabIndex = 78;
-            this.label58.Text = "Receitas";
-            // 
             // Calcular
             // 
             this.Calcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Calcular.Location = new System.Drawing.Point(375, 411);
+            this.Calcular.Location = new System.Drawing.Point(375, 412);
             this.Calcular.Name = "Calcular";
-            this.Calcular.Size = new System.Drawing.Size(122, 34);
+            this.Calcular.Size = new System.Drawing.Size(122, 28);
             this.Calcular.TabIndex = 60;
-            this.Calcular.Text = "Calcular";
+            this.Calcular.Text = "2 parte";
             this.Calcular.UseVisualStyleBackColor = true;
             this.Calcular.Click += new System.EventHandler(this.Calcular_Click);
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(759, 411);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(279, 223);
-            this.richTextBox1.TabIndex = 61;
-            this.richTextBox1.Text = "";
             // 
             // FormDRE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1050, 646);
-            this.Controls.Add(this.richTextBox1);
+            this.ClientSize = new System.Drawing.Size(1030, 441);
             this.Controls.Add(this.Calcular);
-            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "FormDRE";
@@ -1396,8 +1081,6 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1418,7 +1101,7 @@
         private System.Windows.Forms.TextBox AtivoCirculante2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label Imobilizado;
+        private System.Windows.Forms.Label label;
         private System.Windows.Forms.TextBox Imobilizado1;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox AtivoImobilizado2;
@@ -1438,15 +1121,6 @@
         private System.Windows.Forms.TextBox PassivoTotal2;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox LucroBruto;
-        private System.Windows.Forms.TextBox LucroantesdoIR;
-        private System.Windows.Forms.TextBox LucroOUPrejuizoAcumulado;
-        private System.Windows.Forms.TextBox Receitaliquida;
         private System.Windows.Forms.Button Calcular;
         private System.Windows.Forms.TextBox computadores1;
         private System.Windows.Forms.Label label28;
@@ -1499,7 +1173,7 @@
         private System.Windows.Forms.TextBox PASSIVOFINANCIAMENTO2;
         private System.Windows.Forms.TextBox PASSIVOSALARIOSENCARGOSPAGAR2;
         private System.Windows.Forms.TextBox PASSIVOCONTASAPAGAR2;
-        private System.Windows.Forms.TextBox PASSIVOFONECEDORES2;
+        private System.Windows.Forms.TextBox PASSIVOFORNECEDORES2;
         private System.Windows.Forms.TextBox PASSIVOLUCROOUPREJUIZO;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.TextBox PASSIVOCAPITALSOCIAL;
@@ -1509,30 +1183,9 @@
         private System.Windows.Forms.TextBox PASSIVOSALARIOSENCARGOSPAGAR;
         private System.Windows.Forms.TextBox PASSIVOCONTASAPAGAR;
         private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.TextBox PASSIVOFONECEDORES;
+        private System.Windows.Forms.TextBox PASSIVOFORNECEDORES;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.TextBox DESPESAS;
-        private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.TextBox luzaguatelefone;
-        private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.TextBox ALUGUEL;
-        private System.Windows.Forms.TextBox contribuicaosocial;
-        private System.Windows.Forms.Label label61;
-        private System.Windows.Forms.TextBox Impostederenda;
-        private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.TextBox SALARIOS;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.TextBox CMV;
-        private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.TextBox receita;
-        private System.Windows.Forms.TextBox icmssemvendas;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.TextBox Vendas;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
