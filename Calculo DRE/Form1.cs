@@ -18,7 +18,7 @@ namespace Calculo_DRE
             InitializeComponent();
         }
         FormEmpresa form = new FormEmpresa();
-        
+
         private void Calcular_Click(object sender, EventArgs e)
         {
             form.Show();
@@ -125,7 +125,7 @@ namespace Calculo_DRE
             double b = Convert.ToDouble(caixa2.Text) / Convert.ToDouble(AtivoCirculante2.Text);
             double c = Convert.ToDouble(BancosCMovimento1.Text) / Convert.ToDouble(AtivoCirculante2.Text);
             double d = Convert.ToDouble(estoque2.Text) / Convert.ToDouble(AtivoCirculante2.Text);
-            double e = Convert.ToDouble(Contasaareceber1.Text) / Convert.ToDouble(AtivoCirculante1.Text);
+            double e = Convert.ToDouble(contasareceber2.Text) / Convert.ToDouble(AtivoCirculante2.Text);
 
             //////
             double f = Convert.ToDouble(AtivoImobilizado2.Text) / Convert.ToDouble(AtivoTotal2.Text);
@@ -159,7 +159,7 @@ namespace Calculo_DRE
 
             double i = Convert.ToDouble(PASSIVOCAPITALSOCIAL.Text) / Convert.ToDouble(PassivoPatromnioLiq1.Text);
             double j = Convert.ToDouble(PASSIVOLUCROOUPREJUIZO.Text) / Convert.ToDouble(PassivoPatromnioLiq1.Text);
-          
+
 
 
         }
@@ -192,27 +192,42 @@ namespace Calculo_DRE
         private void AnaliseHorizontaATIVOlDEZEMBROEJaneiro()
         {
 
+            double a = ((Convert.ToDouble(AtivoCirculante2.Text) / Convert.ToDouble(AtivoCirculante1.Text)) - 1) * 100;
+            ////
+            double b = ((Convert.ToDouble(caixa2.Text) / Convert.ToDouble(Caixa1.Text)) - 1) * 100;
+            double c = ((Convert.ToDouble(BancosCMovimento1.Text) / Convert.ToDouble(BancosCMovimento1.Text)) - 1) * 100;
+            double d = ((Convert.ToDouble(estoque2.Text) / Convert.ToDouble(Estoque1.Text)) - 1) * 100;
+            double e = ((Convert.ToDouble(contasareceber2.Text) / Convert.ToDouble(Contasaareceber1.Text)) - 1) * 100;
+
+            //////
+            double f = ((Convert.ToDouble(AtivoImobilizado2.Text) / Convert.ToDouble(Imobilizado1.Text)) - 1) * 100;
+            ///
+            double g = ((Convert.ToDouble(veiculos2.Text) / Convert.ToDouble(Veiculos1.Text)) - 1) * 100;
+            double h = ((Convert.ToDouble(Moveis2.Text) / Convert.ToDouble(Moveis1.Text)) - 1) * 100;
+            double i = ((Convert.ToDouble(Instalacoes2.Text) / Convert.ToDouble(Instalacoes1.Text)) - 1) * 100;
+            double j = ((Convert.ToDouble(maquinas2.Text) / Convert.ToDouble(maquinas1.Text)) - 1) * 100;
+            double k = ((Convert.ToDouble(computadores2.Text) / Convert.ToDouble(computadores1.Text)) - 1) * 100;
 
         }
 
         private void AnaliseHorizontaPassivolDEZEMBROEJaneiro()
         {
-            double a =(( Convert.ToDouble(PassivoCirculante2.Text) / Convert.ToDouble(PassivoNaoCirculante1.Text))-1)*100;
+            double a = ((Convert.ToDouble(PassivoCirculante2.Text) / Convert.ToDouble(PassivoNaoCirculante1.Text)) - 1) * 100;
             ////
-            double b =(( Convert.ToDouble(PASSIVOSALARIOSENCARGOSPAGAR2.Text) / Convert.ToDouble(PASSIVOSALARIOSENCARGOSPAGAR.Text))-1)*100;
-            double c =(( Convert.ToDouble(PASSIVOFORNECEDORES2.Text) / Convert.ToDouble(PASSIVOFORNECEDORES.Text))-1)*100;
-            double d =(( Convert.ToDouble(PASSIVOCONTASAPAGAR2.Text) / Convert.ToDouble(PASSIVOCONTASAPAGAR.Text))-1)*100;
-            double e = ((Convert.ToDouble(PASSIVOFINANCIAMENTO2.Text) / Convert.ToDouble(PASSIVOFINANCIAMENTO.Text))-1)*100;
+            double b = ((Convert.ToDouble(PASSIVOSALARIOSENCARGOSPAGAR2.Text) / Convert.ToDouble(PASSIVOSALARIOSENCARGOSPAGAR.Text)) - 1) * 100;
+            double c = ((Convert.ToDouble(PASSIVOFORNECEDORES2.Text) / Convert.ToDouble(PASSIVOFORNECEDORES.Text)) - 1) * 100;
+            double d = ((Convert.ToDouble(PASSIVOCONTASAPAGAR2.Text) / Convert.ToDouble(PASSIVOCONTASAPAGAR.Text)) - 1) * 100;
+            double e = ((Convert.ToDouble(PASSIVOFINANCIAMENTO2.Text) / Convert.ToDouble(PASSIVOFINANCIAMENTO.Text)) - 1) * 100;
 
             //////
-            double f = ((Convert.ToDouble(PassivoNaocirculante2.Text) / Convert.ToDouble(PassivoNaoCirculante1.Text))-1)*100;
+            double f = ((Convert.ToDouble(PassivoNaocirculante2.Text) / Convert.ToDouble(PassivoNaoCirculante1.Text)) - 1) * 100;
             //////
-            double h =(( Convert.ToDouble(PassvioPatrimonioLiq2.Text) / Convert.ToDouble(PassivoPatromnioLiq1.Text))-1)*100;
+            double h = ((Convert.ToDouble(PassvioPatrimonioLiq2.Text) / Convert.ToDouble(PassivoPatromnioLiq1.Text)) - 1) * 100;
 
-            double i =(( Convert.ToDouble(PASSIVOCAPITALSOCIAL2.Text) / Convert.ToDouble(PASSIVOCAPITALSOCIAL.Text))-1) *100;
-            double j =(( Convert.ToDouble(PASSIVOLUCROOUPREJUIZO2.Text) / Convert.ToDouble(PASSIVOLUCROOUPREJUIZO.Text))- 1 ) *100;
+            double i = ((Convert.ToDouble(PASSIVOCAPITALSOCIAL2.Text) / Convert.ToDouble(PASSIVOCAPITALSOCIAL.Text)) - 1) * 100;
+            double j = ((Convert.ToDouble(PASSIVOLUCROOUPREJUIZO2.Text) / Convert.ToDouble(PASSIVOLUCROOUPREJUIZO.Text)) - 1) * 100;
         }
-        
+
 
         //2 parte janeiro
 
