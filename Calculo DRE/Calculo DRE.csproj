@@ -58,6 +58,12 @@
     <Compile Include="FormEmpresa.Designer.cs">
       <DependentUpon>FormEmpresa.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormGridView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGridView.Designer.cs">
+      <DependentUpon>FormGridView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormEmpresa.resx">
       <DependentUpon>FormEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGridView.resx">
+      <DependentUpon>FormGridView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

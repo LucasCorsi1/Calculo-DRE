@@ -21,8 +21,8 @@ namespace Calculo_DRE
 
         private void Calcular_Click(object sender, EventArgs e)
         {
+         
             form.Show();
-
         }
 
         //primeira parte dezembro

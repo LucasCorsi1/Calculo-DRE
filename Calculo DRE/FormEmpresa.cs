@@ -17,9 +17,10 @@ namespace Calculo_DRE
             InitializeComponent();
         }
 
+        FormGridView gridform = new FormGridView();
         private void button1_Click(object sender, EventArgs e)
         {
-
+            gridform.Show();
         }
 
 
