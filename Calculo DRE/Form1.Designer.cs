@@ -1057,13 +1057,14 @@
             // 
             // Calcular
             // 
+            this.Calcular.BackColor = System.Drawing.Color.LightGray;
             this.Calcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Calcular.Location = new System.Drawing.Point(375, 412);
             this.Calcular.Name = "Calcular";
             this.Calcular.Size = new System.Drawing.Size(122, 28);
             this.Calcular.TabIndex = 60;
             this.Calcular.Text = "2 parte";
-            this.Calcular.UseVisualStyleBackColor = true;
+            this.Calcular.UseVisualStyleBackColor = false;
             this.Calcular.Click += new System.EventHandler(this.Calcular_Click);
             // 
             // FormDRE
