@@ -12,67 +12,71 @@ namespace Calculo_DRE
 {
     public partial class FormEmpresa : Form
     {
+        public static FormEmpresa Empresa;
         public FormEmpresa()
         {
             InitializeComponent();
         }
 
-        FormGridView gridform = new FormGridView();
         private void button1_Click(object sender, EventArgs e)
         {
+            FormGridView gridform = new FormGridView();
+            Empresa = this;
             gridform.Show();
         }
-
-
-        private void analiseverticalresultadodaempresaDEZEMBRO()
+        public double[] analiseverticalresultadodaempresaDEZEMBRO()
         {
-            double a = Convert.ToDouble(Vendas.Text) / Convert.ToDouble(Vendas.Text);
-            double b = Convert.ToDouble(icmssemvendas.Text) / Convert.ToDouble(Vendas.Text);
-            double c = Convert.ToDouble(Receitaliquida.Text) / Convert.ToDouble(Vendas.Text);
-            double d = Convert.ToDouble(CMV.Text) / Convert.ToDouble(Vendas.Text);
-            double e = Convert.ToDouble(LucroBruto.Text) / Convert.ToDouble(Vendas.Text);
-            double f = Convert.ToDouble(DESPESAS.Text) / Convert.ToDouble(Vendas.Text);
-            double h = Convert.ToDouble(ALUGUEL.Text) / Convert.ToDouble(Vendas.Text);
-            double i = Convert.ToDouble(SALARIOS.Text) / Convert.ToDouble(Vendas.Text);
-            double j = Convert.ToDouble(luzaguatelefone.Text) / Convert.ToDouble(Vendas.Text);
-            double k = Convert.ToDouble(LucroantesdoIR.Text) / Convert.ToDouble(Vendas.Text);
-            double l = Convert.ToDouble(Impostederenda.Text) / Convert.ToDouble(Vendas.Text);
-            double m = Convert.ToDouble(contribuicaosocial.Text) / Convert.ToDouble(Vendas.Text);
-            double n = Convert.ToDouble(LucroOUPrejuizoAcumulado.Text) / Convert.ToDouble(Vendas.Text);
+            double[] array = new double[13];
+            array[0] =  Convert.ToDouble(Vendas.Text) / Convert.ToDouble(Vendas.Text);
+            array[1] =  Convert.ToDouble(icmssemvendas.Text) / Convert.ToDouble(Vendas.Text);
+            array[2] =  Convert.ToDouble(Receitaliquida.Text) / Convert.ToDouble(Vendas.Text);
+            array[3] =  Convert.ToDouble(CMV.Text) / Convert.ToDouble(Vendas.Text);
+            array[4] =  Convert.ToDouble(LucroBruto.Text) / Convert.ToDouble(Vendas.Text);
+            array[5] =  Convert.ToDouble(DESPESAS.Text) / Convert.ToDouble(Vendas.Text);
+            array[6] =  Convert.ToDouble(ALUGUEL.Text) / Convert.ToDouble(Vendas.Text);
+            array[7] =  Convert.ToDouble(SALARIOS.Text) / Convert.ToDouble(Vendas.Text);
+            array[8] =  Convert.ToDouble(luzaguatelefone.Text) / Convert.ToDouble(Vendas.Text);
+            array[9] =  Convert.ToDouble(LucroantesdoIR.Text) / Convert.ToDouble(Vendas.Text);
+            array[10] = Convert.ToDouble(Impostederenda.Text) / Convert.ToDouble(Vendas.Text);
+            array[11] = Convert.ToDouble(contribuicaosocial.Text) / Convert.ToDouble(Vendas.Text);
+            array[12] = Convert.ToDouble(LucroOUPrejuizoAcumulado.Text) / Convert.ToDouble(Vendas.Text);
+            return array;
         }
-
-        private void analiseverticalresultadodaempresaJaneiro()
+        public double[] analiseverticalresultadodaempresaJaneiro()
         {
-            double a = Convert.ToDouble(vendas2.Text) / Convert.ToDouble(vendas2.Text); double b = Convert.ToDouble(icmsobrevendas2.Text) / Convert.ToDouble(vendas2.Text);
-            double c = Convert.ToDouble(receitaliq2.Text) / Convert.ToDouble(vendas2.Text);
-            double d = Convert.ToDouble(CMV2.Text) / Convert.ToDouble(vendas2.Text);
-            double e = Convert.ToDouble(lucrobruto2.Text) / Convert.ToDouble(vendas2.Text);
-            double f = Convert.ToDouble(despesas2.Text) / Convert.ToDouble(vendas2.Text);
-            double h = Convert.ToDouble(aluguel2.Text) / Convert.ToDouble(vendas2.Text);
-            double i = Convert.ToDouble(salarios2.Text) / Convert.ToDouble(vendas2.Text);
-            double j = Convert.ToDouble(luzaguatelefone2.Text) / Convert.ToDouble(vendas2.Text);
-            double k = Convert.ToDouble(lucrosemIR2.Text) / Convert.ToDouble(vendas2.Text);
-            double l = Convert.ToDouble(IR2.Text) / Convert.ToDouble(vendas2.Text);
-            double m = Convert.ToDouble(contribuicaosocial2.Text) / Convert.ToDouble(vendas2.Text);
-            double n = Convert.ToDouble(lucroouprejuizo2.Text) / Convert.ToDouble(vendas2.Text);
-        }
+            double[] array = new double[12];
 
-        private void AnaliseHorizontalresultadodaempresa()
+            array[0] =  Convert.ToDouble(vendas2.Text) / Convert.ToDouble(vendas2.Text);
+            array[1] =  Convert.ToDouble(receitaliq2.Text) / Convert.ToDouble(vendas2.Text);
+            array[2] =  Convert.ToDouble(CMV2.Text) / Convert.ToDouble(vendas2.Text);
+            array[3] =  Convert.ToDouble(lucrobruto2.Text) / Convert.ToDouble(vendas2.Text);
+            array[4] =  Convert.ToDouble(despesas2.Text) / Convert.ToDouble(vendas2.Text);
+            array[5] =  Convert.ToDouble(aluguel2.Text) / Convert.ToDouble(vendas2.Text);
+            array[6] =  Convert.ToDouble(salarios2.Text) / Convert.ToDouble(vendas2.Text);
+            array[7] =  Convert.ToDouble(luzaguatelefone2.Text) / Convert.ToDouble(vendas2.Text);
+            array[8] =  Convert.ToDouble(lucrosemIR2.Text) / Convert.ToDouble(vendas2.Text);
+            array[9] =  Convert.ToDouble(IR2.Text) / Convert.ToDouble(vendas2.Text);
+            array[10] = Convert.ToDouble(contribuicaosocial2.Text) / Convert.ToDouble(vendas2.Text);
+            array[11] = Convert.ToDouble(lucroouprejuizo2.Text) / Convert.ToDouble(vendas2.Text);
+            return array;
+        }
+        public double[] AnaliseHorizontalresultadodaempresa()
         {
-            double a = ((Convert.ToDouble(vendas2.Text) / Convert.ToDouble(Vendas.Text)) - 1) * 100;
-            double b = ((Convert.ToDouble(icmsobrevendas2.Text) / Convert.ToDouble(icmssemvendas.Text)) - 1) * 100;
-            double c = ((Convert.ToDouble(receitaliq2.Text) / Convert.ToDouble(receita.Text)) - 1) * 100;
-            double d = ((Convert.ToDouble(CMV2.Text) / Convert.ToDouble(CMV.Text)) - 1) * 100;
-            double e = ((Convert.ToDouble(lucrobruto2.Text) / Convert.ToDouble(LucroBruto.Text)) - 1) * 100;
-            double f = ((Convert.ToDouble(despesas2.Text) / Convert.ToDouble(DESPESAS.Text)) - 1) * 100;
-            double h = ((Convert.ToDouble(aluguel2.Text) / Convert.ToDouble(ALUGUEL.Text)) - 1) * 100;
-            double i = ((Convert.ToDouble(salarios2.Text) / Convert.ToDouble(SALARIOS.Text)) - 1) * 100;
-            double j = ((Convert.ToDouble(luzaguatelefone2.Text) / Convert.ToDouble(luzaguatelefone.Text)) - 1) * 100;
-            double k = ((Convert.ToDouble(lucrosemIR2.Text) / Convert.ToDouble(LucroantesdoIR.Text)) - 1) * 100;
-            double l = ((Convert.ToDouble(IR2.Text) / Convert.ToDouble(Impostederenda.Text)) - 1) * 100;
-            double m = ((Convert.ToDouble(contribuicaosocial2.Text) / Convert.ToDouble(contribuicaosocial.Text)) - 1) * 100;
-            double n = ((Convert.ToDouble(lucroouprejuizo2.Text) / Convert.ToDouble(LucroOUPrejuizoAcumulado.Text)) - 1) * 100;
+            double[] array = new double[13];
+            array[0] =  ((Convert.ToDouble(vendas2.Text) / Convert.ToDouble(Vendas.Text)) - 1) * 100;
+            array[1] =  ((Convert.ToDouble(icmsobrevendas2.Text) / Convert.ToDouble(icmssemvendas.Text)) - 1) * 100;
+            array[2] =  ((Convert.ToDouble(receitaliq2.Text) / Convert.ToDouble(receita.Text)) - 1) * 100;
+            array[3] =  ((Convert.ToDouble(CMV2.Text) / Convert.ToDouble(CMV.Text)) - 1) * 100;
+            array[4] =  ((Convert.ToDouble(lucrobruto2.Text) / Convert.ToDouble(LucroBruto.Text)) - 1) * 100;
+            array[5] =  ((Convert.ToDouble(despesas2.Text) / Convert.ToDouble(DESPESAS.Text)) - 1) * 100;
+            array[6] =  ((Convert.ToDouble(aluguel2.Text) / Convert.ToDouble(ALUGUEL.Text)) - 1) * 100;
+            array[7] =  ((Convert.ToDouble(salarios2.Text) / Convert.ToDouble(SALARIOS.Text)) - 1) * 100;
+            array[8] =  ((Convert.ToDouble(luzaguatelefone2.Text) / Convert.ToDouble(luzaguatelefone.Text)) - 1) * 100;
+            array[9] =  ((Convert.ToDouble(lucrosemIR2.Text) / Convert.ToDouble(LucroantesdoIR.Text)) - 1) * 100;
+            array[10] = ((Convert.ToDouble(IR2.Text) / Convert.ToDouble(Impostederenda.Text)) - 1) * 100;
+            array[11] = ((Convert.ToDouble(contribuicaosocial2.Text) / Convert.ToDouble(contribuicaosocial.Text)) - 1) * 100;
+            array[12] = ((Convert.ToDouble(lucroouprejuizo2.Text) / Convert.ToDouble(LucroOUPrejuizoAcumulado.Text)) - 1) * 100;
+            return array;
         }
-
     }
 }
