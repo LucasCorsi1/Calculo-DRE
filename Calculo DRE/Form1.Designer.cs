@@ -139,7 +139,7 @@
             this.AtivoCirculante1.Name = "AtivoCirculante1";
             this.AtivoCirculante1.Size = new System.Drawing.Size(100, 22);
             this.AtivoCirculante1.TabIndex = 0;
-            this.AtivoCirculante1.Text = "40843.95 ";
+            this.AtivoCirculante1.Text = "40843,95 ";
             // 
             // AtivonãoCirculante1
             // 
@@ -158,7 +158,7 @@
             this.AtivoTotal1.Name = "AtivoTotal1";
             this.AtivoTotal1.Size = new System.Drawing.Size(100, 22);
             this.AtivoTotal1.TabIndex = 2;
-            this.AtivoTotal1.Text = "163893.95";
+            this.AtivoTotal1.Text = "163893,95";
             // 
             // label3
             // 
@@ -228,7 +228,7 @@
             this.AtivoTotal2.Name = "AtivoTotal2";
             this.AtivoTotal2.Size = new System.Drawing.Size(100, 22);
             this.AtivoTotal2.TabIndex = 29;
-            this.AtivoTotal2.Text = "126265";
+            this.AtivoTotal2.Text = "126265,00";
             // 
             // AtivoNaoCirculante2
             // 
@@ -680,7 +680,7 @@
             this.Contasaareceber1.Name = "Contasaareceber1";
             this.Contasaareceber1.Size = new System.Drawing.Size(100, 22);
             this.Contasaareceber1.TabIndex = 45;
-            this.Contasaareceber1.Text = "21.430";
+            this.Contasaareceber1.Text = "21430";
             // 
             // label27
             // 
@@ -701,7 +701,7 @@
             this.Caixa1.Name = "Caixa1";
             this.Caixa1.Size = new System.Drawing.Size(100, 22);
             this.Caixa1.TabIndex = 39;
-            this.Caixa1.Text = "7108.53 ";
+            this.Caixa1.Text = "7108,53 ";
             // 
             // Estoque1
             // 
@@ -711,7 +711,7 @@
             this.Estoque1.Name = "Estoque1";
             this.Estoque1.Size = new System.Drawing.Size(100, 22);
             this.Estoque1.TabIndex = 40;
-            this.Estoque1.Text = "1130.42";
+            this.Estoque1.Text = "1130,42";
             // 
             // label24
             // 
@@ -795,7 +795,7 @@
             this.PassivoTotal1.Name = "PassivoTotal1";
             this.PassivoTotal1.Size = new System.Drawing.Size(100, 22);
             this.PassivoTotal1.TabIndex = 42;
-            this.PassivoTotal1.Text = "91893.95";
+            this.PassivoTotal1.Text = "91893,95";
             // 
             // PassivoPatromnioLiq1
             // 
@@ -805,7 +805,7 @@
             this.PassivoPatromnioLiq1.Name = "PassivoPatromnioLiq1";
             this.PassivoPatromnioLiq1.Size = new System.Drawing.Size(100, 22);
             this.PassivoPatromnioLiq1.TabIndex = 54;
-            this.PassivoPatromnioLiq1.Text = "52333.95";
+            this.PassivoPatromnioLiq1.Text = "52333,95";
             // 
             // label13
             // 
@@ -1116,7 +1116,7 @@
             this.PASSIVOLUCROOUPREJUIZO.Name = "PASSIVOLUCROOUPREJUIZO";
             this.PASSIVOLUCROOUPREJUIZO.Size = new System.Drawing.Size(100, 22);
             this.PASSIVOLUCROOUPREJUIZO.TabIndex = 75;
-            this.PASSIVOLUCROOUPREJUIZO.Text = "2333.95";
+            this.PASSIVOLUCROOUPREJUIZO.Text = "2333,95";
             // 
             // label46
             // 

@@ -40,8 +40,8 @@ namespace Calculo_DRE
         }
         public double LiquidezGeral()
         {
-            double soma = Convert.ToDouble(Imobilizado1.Text) + Convert.ToDouble(Veiculos1.Text + Moveis1.Text) + Convert.ToDouble(Instalacoes1.Text) + Convert.ToDouble(maquinas1.Text) + Convert.ToDouble(computadores1.Text);
-            return (Convert.ToDouble(AtivoCirculante1.Text) + soma) / (Convert.ToDouble(PassivoCirculante1.Text) + Convert.ToDouble(PassivoNaoCirculante1.Text));
+            
+            return (Convert.ToDouble(AtivoCirculante1.Text) + Convert.ToDouble(Imobilizado1.Text)) / (Convert.ToDouble(PassivoCirculante1.Text) + Convert.ToDouble(PassivoNaoCirculante1.Text));
         }
         public double AnalisedeEndividamento()
         {
@@ -65,19 +65,17 @@ namespace Calculo_DRE
         }
         public double Girodoativo()
         {
-            return Convert.ToDouble(formEmpresa.Vendas.Text) / Convert.ToDouble(AtivoTotal1.Text); // REVER
+            double soma = ((Convert.ToDouble(AtivoTotal2.Text) + Convert.ToDouble(AtivoTotal1.Text)) / 2);
+            return Convert.ToDouble(formEmpresa.Receitaliquida.Text) / soma; // ok
         }
         public double Lucratividade()
         {
-            return Convert.ToDouble(formEmpresa.LucroBruto.Text) / Convert.ToDouble(formEmpresa.Vendas.Text);  //REVER
+            return Convert.ToDouble(formEmpresa.LucroBruto.Text) / Convert.ToDouble(formEmpresa.Receitaliquida.Text);  //REVER
         }
         public double Prazomediodeestoques()
         {
-            return Convert.ToDouble(formEmpresa.CMV.Text) / Convert.ToDouble(Estoque1.Text);
-        }
-        public double PrazomedioEstoquesPorperidodo()
-        {
-            return 360 / (Convert.ToDouble(formEmpresa.CMV.Text) / Convert.ToDouble(Estoque1.Text));
+            double estoquemedio = (Convert.ToDouble(Estoque1.Text) + Convert.ToDouble(estoque2.Text)) / 2;
+            return 360 /(Convert.ToDouble(formEmpresa.CMV.Text) / estoquemedio);
         }
 
         //segunda parte janeiro
@@ -95,8 +93,8 @@ namespace Calculo_DRE
         }
         public double LiquidezGeral2()
         {
-            double soma = Convert.ToDouble(AtivoImobilizado2.Text) + Convert.ToDouble(veiculos2.Text + Moveis1.Text) + Convert.ToDouble(Instalacoes2.Text) + Convert.ToDouble(maquinas2.Text) + Convert.ToDouble(computadores2.Text);
-            return (Convert.ToDouble(AtivoCirculante2.Text) + soma) / (Convert.ToDouble(PassivoCirculante2.Text) + Convert.ToDouble(PassivoNaocirculante2.Text));
+           
+            return ((Convert.ToDouble(AtivoCirculante2.Text) + Convert.ToDouble(AtivoImobilizado2.Text))) / ((Convert.ToDouble(PassivoCirculante2.Text) + Convert.ToDouble(PassivoNaocirculante2.Text)));
         }
         public double AnalisedeEndividamento2()
         {
@@ -120,116 +118,115 @@ namespace Calculo_DRE
         }
         public double Girodoativo2()
         {
-            return Convert.ToDouble(formEmpresa.vendas2.Text) / Convert.ToDouble(AtivoTotal2.Text); // REVER
+            double soma = ((Convert.ToDouble(AtivoTotal2.Text) + Convert.ToDouble(AtivoTotal1.Text)) / 2);
+            return Convert.ToDouble(formEmpresa.receitaliq2.Text) /soma; // REVER
         }
         public double Lucratividade2()
         {
-            return Convert.ToDouble(formEmpresa.lucrobruto2.Text) / Convert.ToDouble(formEmpresa.vendas2.Text);  //REVER
+            return Convert.ToDouble(formEmpresa.lucrobruto2.Text) / Convert.ToDouble(formEmpresa.receitaliq2.Text);  //REVER
         }
         public double Prazomediodeestoques2()
         {
-            return Convert.ToDouble(formEmpresa.CMV2.Text) / Convert.ToDouble(estoque2.Text);
+            double estoquemedio = (Convert.ToDouble(Estoque1.Text) + Convert.ToDouble(estoque2.Text)) / 2;
+            return 360 / (Convert.ToDouble(formEmpresa.CMV2.Text) / estoquemedio);
         }
-        public double PrazomedioEstoquesPorperidodo2()
-        {
-            return 360 / (Convert.ToDouble(formEmpresa.CMV2.Text) / Convert.ToDouble(estoque2.Text));
-        }
+
 
         //Analises Verticais e Horizontais
         public double[] AnaliseverticalAtivoJaneiro()
         {
             //Enumerado em ordem dentro do array
             double[] array = new double[11];
-            array[0] = Convert.ToDouble(AtivoCirculante1.Text) / Convert.ToDouble(AtivoTotal1.Text);
-            array[1] = Convert.ToDouble(Caixa1.Text) / Convert.ToDouble(AtivoCirculante1.Text);
-            array[2] = Convert.ToDouble(BancosCMovimento1.Text) / Convert.ToDouble(AtivoCirculante1.Text);
-            array[3] = Convert.ToDouble(Estoque1.Text) / Convert.ToDouble(AtivoCirculante1.Text);
-            array[4] = Convert.ToDouble(Contasaareceber1.Text) / Convert.ToDouble(AtivoCirculante1.Text);
-            array[5] = Convert.ToDouble(Imobilizado1.Text) / Convert.ToDouble(AtivoTotal1.Text);
-            array[6] = Convert.ToDouble(Veiculos1.Text) / Convert.ToDouble(Imobilizado1.Text);
-            array[7] = Convert.ToDouble(Moveis1.Text) / Convert.ToDouble(Imobilizado1.Text);
-            array[8] = Convert.ToDouble(Instalacoes1.Text) / Convert.ToDouble(Imobilizado1.Text);
-            array[9] = Convert.ToDouble(maquinas1.Text) / Convert.ToDouble(Imobilizado1.Text);
-            array[10] = Convert.ToDouble(computadores1.Text) / Convert.ToDouble(Imobilizado1.Text);
+            array[0] = (Convert.ToDouble(AtivoCirculante1.Text) / Convert.ToDouble(AtivoTotal1.Text))*100;
+            array[1] = (Convert.ToDouble(Caixa1.Text) / Convert.ToDouble(AtivoCirculante1.Text))*100;
+            array[2] = (Convert.ToDouble(BancosCMovimento1.Text) / Convert.ToDouble(AtivoCirculante1.Text))*100;
+            array[3] = (Convert.ToDouble(Estoque1.Text) / Convert.ToDouble(AtivoCirculante1.Text))*100;
+            array[4] = (Convert.ToDouble(Contasaareceber1.Text) / Convert.ToDouble(AtivoCirculante1.Text))*100;
+            array[5] = (Convert.ToDouble(Imobilizado1.Text) / Convert.ToDouble(AtivoTotal1.Text))*100;
+            array[6] = (Convert.ToDouble(Veiculos1.Text) / Convert.ToDouble(Imobilizado1.Text))*100;
+            array[7] = (Convert.ToDouble(Moveis1.Text) / Convert.ToDouble(Imobilizado1.Text))*100;
+            array[8] = (Convert.ToDouble(Instalacoes1.Text) / Convert.ToDouble(Imobilizado1.Text))*100;
+            array[9] = (Convert.ToDouble(maquinas1.Text) / Convert.ToDouble(Imobilizado1.Text))*100;
+            array[10] = (Convert.ToDouble(computadores1.Text) / Convert.ToDouble(Imobilizado1.Text))*100;
             return array;
         }
         public double[] AnaliseverticalAtivoDEZEMBRO()
         {
             //Enumerado em ordem dentro do array
             double[] array = new double[11];
-            array[0] = Convert.ToDouble(AtivoCirculante2.Text) / Convert.ToDouble(AtivoTotal2.Text);
-            array[1] = Convert.ToDouble(caixa2.Text) / Convert.ToDouble(AtivoCirculante2.Text);
-            array[2] = Convert.ToDouble(BancosCMovimento1.Text) / Convert.ToDouble(AtivoCirculante2.Text);
-            array[3] = Convert.ToDouble(estoque2.Text) / Convert.ToDouble(AtivoCirculante2.Text);
-            array[4] = Convert.ToDouble(contasareceber2.Text) / Convert.ToDouble(AtivoCirculante2.Text);
-            array[5] = Convert.ToDouble(AtivoImobilizado2.Text) / Convert.ToDouble(AtivoTotal2.Text);
-            array[6] = Convert.ToDouble(veiculos2.Text) / Convert.ToDouble(AtivoImobilizado2.Text);
-            array[7] = Convert.ToDouble(Moveis2.Text) / Convert.ToDouble(AtivoImobilizado2.Text);
-            array[8] = Convert.ToDouble(Instalacoes2.Text) / Convert.ToDouble(AtivoImobilizado2.Text);
-            array[9] = Convert.ToDouble(maquinas2.Text) / Convert.ToDouble(AtivoImobilizado2.Text);
-            array[10] = Convert.ToDouble(computadores2.Text) / Convert.ToDouble(AtivoImobilizado2.Text);
+            array[0] = (Convert.ToDouble(AtivoCirculante2.Text) / Convert.ToDouble(AtivoTotal2.Text))*100;
+            array[1] = (Convert.ToDouble(caixa2.Text) / Convert.ToDouble(AtivoCirculante2.Text))*100;
+            array[2] = (Convert.ToDouble(BancosCMovimento1.Text) / Convert.ToDouble(AtivoCirculante2.Text))*100;
+            array[3] = (Convert.ToDouble(estoque2.Text) / Convert.ToDouble(AtivoCirculante2.Text))*100;
+            array[4] = (Convert.ToDouble(contasareceber2.Text) / Convert.ToDouble(AtivoCirculante2.Text))*100;
+            array[5] = (Convert.ToDouble(AtivoImobilizado2.Text) / Convert.ToDouble(AtivoTotal2.Text))*100;
+            array[6] = (Convert.ToDouble(veiculos2.Text) / Convert.ToDouble(AtivoImobilizado2.Text))*100;
+            array[7] = (Convert.ToDouble(Moveis2.Text) / Convert.ToDouble(AtivoImobilizado2.Text))*100;
+            array[8] = (Convert.ToDouble(Instalacoes2.Text) / Convert.ToDouble(AtivoImobilizado2.Text))*100;
+            array[9] = (Convert.ToDouble(maquinas2.Text) / Convert.ToDouble(AtivoImobilizado2.Text))*100;
+            array[10] = (Convert.ToDouble(computadores2.Text) / Convert.ToDouble(AtivoImobilizado2.Text))*100;
             return array;
         }
         public double[] AnaliseverticalPASSIVOJaneiro()
         {
             //Enumerado em ordem dentro do array
             double[] array = new double[9];
-            array[0] = Convert.ToDouble(PassivoCirculante1.Text) / Convert.ToDouble(PassivoTotal1.Text);
-            array[1] = Convert.ToDouble(PASSIVOSALARIOSENCARGOSPAGAR.Text) / Convert.ToDouble(PassivoCirculante1.Text);
-            array[2] = Convert.ToDouble(PASSIVOFORNECEDORES.Text) / Convert.ToDouble(PassivoCirculante1.Text);
-            array[3] = Convert.ToDouble(PASSIVOCONTASAPAGAR.Text) / Convert.ToDouble(PassivoCirculante1.Text);
-            array[4] = Convert.ToDouble(PASSIVOFINANCIAMENTO.Text) / Convert.ToDouble(PassivoCirculante1.Text);
-            array[5] = Convert.ToDouble(PassivoNaoCirculante1.Text) / Convert.ToDouble(PassivoTotal1.Text);
-            array[6] = Convert.ToDouble(PassivoPatromnioLiq1.Text) / Convert.ToDouble(PassivoTotal1.Text);
-            array[7] = Convert.ToDouble(PASSIVOCAPITALSOCIAL.Text) / Convert.ToDouble(PassivoPatromnioLiq1.Text);
-            array[8] = Convert.ToDouble(PASSIVOLUCROOUPREJUIZO.Text) / Convert.ToDouble(PassivoPatromnioLiq1.Text);
+            array[0] = (Convert.ToDouble(PassivoCirculante1.Text) / Convert.ToDouble(PassivoTotal1.Text))*100;
+            array[1] = (Convert.ToDouble(PASSIVOSALARIOSENCARGOSPAGAR.Text) / Convert.ToDouble(PassivoCirculante1.Text))*100;
+            array[2] = (Convert.ToDouble(PASSIVOFORNECEDORES.Text) / Convert.ToDouble(PassivoCirculante1.Text))*100;
+            array[3] = (Convert.ToDouble(PASSIVOCONTASAPAGAR.Text) / Convert.ToDouble(PassivoCirculante1.Text))*100;
+            array[4] = (Convert.ToDouble(PASSIVOFINANCIAMENTO.Text) / Convert.ToDouble(PassivoCirculante1.Text))*100;
+            array[5] = (Convert.ToDouble(PassivoNaoCirculante1.Text) / Convert.ToDouble(PassivoTotal1.Text))*100;
+            array[6] = (Convert.ToDouble(PassivoPatromnioLiq1.Text) / Convert.ToDouble(PassivoTotal1.Text))*100;
+            array[7] = (Convert.ToDouble(PASSIVOCAPITALSOCIAL.Text) / Convert.ToDouble(PassivoPatromnioLiq1.Text))*100;
+            array[8] = (Convert.ToDouble(PASSIVOLUCROOUPREJUIZO.Text) / Convert.ToDouble(PassivoPatromnioLiq1.Text))*100;
             return array;
         }
         public double[] AnaliseverticalPASSIVODEZEMBRO()
         {
             //Enumerado em ordem dentro do array
             double[] array = new double[9];
-            array[0] = Convert.ToDouble(PassivoCirculante2.Text) / Convert.ToDouble(PassivoTotal2.Text);
-            array[1] = Convert.ToDouble(PASSIVOSALARIOSENCARGOSPAGAR2.Text) / Convert.ToDouble(PassivoCirculante2.Text);
-            array[2] = Convert.ToDouble(PASSIVOFORNECEDORES2.Text) / Convert.ToDouble(PassivoCirculante2.Text);
-            array[3] = Convert.ToDouble(PASSIVOCONTASAPAGAR2.Text) / Convert.ToDouble(PassivoCirculante2.Text);
-            array[4] = Convert.ToDouble(PASSIVOFINANCIAMENTO2.Text) / Convert.ToDouble(PassivoCirculante2.Text);
-            array[5] = Convert.ToDouble(PassivoNaocirculante2.Text) / Convert.ToDouble(PassivoTotal2.Text);
-            array[6] = Convert.ToDouble(PassvioPatrimonioLiq2.Text) / Convert.ToDouble(PassivoTotal2.Text);
-            array[7] = Convert.ToDouble(PASSIVOCAPITALSOCIAL2.Text) / Convert.ToDouble(PassvioPatrimonioLiq2.Text);
-            array[8] = Convert.ToDouble(PASSIVOLUCROOUPREJUIZO2.Text) / Convert.ToDouble(PassvioPatrimonioLiq2.Text);
+            array[0] = (Convert.ToDouble(PassivoCirculante2.Text) / Convert.ToDouble(PassivoTotal2.Text))*100;
+            array[1] = (Convert.ToDouble(PASSIVOSALARIOSENCARGOSPAGAR2.Text) / Convert.ToDouble(PassivoCirculante2.Text))*100;
+            array[2] = (Convert.ToDouble(PASSIVOFORNECEDORES2.Text) / Convert.ToDouble(PassivoCirculante2.Text))*100;
+            array[3] = (Convert.ToDouble(PASSIVOCONTASAPAGAR2.Text) / Convert.ToDouble(PassivoCirculante2.Text))*100;
+            array[4] = (Convert.ToDouble(PASSIVOFINANCIAMENTO2.Text) / Convert.ToDouble(PassivoCirculante2.Text))*100;
+            array[5] = (Convert.ToDouble(PassivoNaocirculante2.Text) / Convert.ToDouble(PassivoTotal2.Text))*100;
+            array[6] = (Convert.ToDouble(PassvioPatrimonioLiq2.Text) / Convert.ToDouble(PassivoTotal2.Text))*100;
+            array[7] = (Convert.ToDouble(PASSIVOCAPITALSOCIAL2.Text) / Convert.ToDouble(PassvioPatrimonioLiq2.Text))*100;
+            array[8] = (Convert.ToDouble(PASSIVOLUCROOUPREJUIZO2.Text) / Convert.ToDouble(PassvioPatrimonioLiq2.Text))*100;
             return array;
         }
         public double[] AnaliseHorizontaATIVOlDEZEMBROEJaneiro()
         {
             //Enumerado em ordem dentro do array
             double[] array = new double[11];
-            array[0] = ((Convert.ToDouble(AtivoCirculante2.Text) / Convert.ToDouble(AtivoCirculante1.Text)) - 1) * 100;
-            array[1] = ((Convert.ToDouble(caixa2.Text) / Convert.ToDouble(Caixa1.Text)) - 1) * 100;
-            array[2] = ((Convert.ToDouble(BancosCMovimento1.Text) / Convert.ToDouble(BancosCMovimento1.Text)) - 1) * 100;
-            array[3] = ((Convert.ToDouble(estoque2.Text) / Convert.ToDouble(Estoque1.Text)) - 1) * 100;
-            array[4] = ((Convert.ToDouble(contasareceber2.Text) / Convert.ToDouble(Contasaareceber1.Text)) - 1) * 100;
-            array[5] = ((Convert.ToDouble(AtivoImobilizado2.Text) / Convert.ToDouble(Imobilizado1.Text)) - 1) * 100;
-            array[6] = ((Convert.ToDouble(veiculos2.Text) / Convert.ToDouble(Veiculos1.Text)) - 1) * 100;
-            array[7] = ((Convert.ToDouble(Moveis2.Text) / Convert.ToDouble(Moveis1.Text)) - 1) * 100;
-            array[8] = ((Convert.ToDouble(Instalacoes2.Text) / Convert.ToDouble(Instalacoes1.Text)) - 1) * 100;
-            array[9] = ((Convert.ToDouble(maquinas2.Text) / Convert.ToDouble(maquinas1.Text)) - 1) * 100;
-            array[10] = ((Convert.ToDouble(computadores2.Text) / Convert.ToDouble(computadores1.Text)) - 1) * 100;
+            array[0] = ((Convert.ToDouble(AtivoCirculante2.Text) / Convert.ToDouble(AtivoCirculante1.Text)) ) * 100;
+            array[1] = ((Convert.ToDouble(caixa2.Text) / Convert.ToDouble(Caixa1.Text)) ) * 100;
+            array[2] = ((Convert.ToDouble(BancosCMovimento1.Text) / Convert.ToDouble(BancosCMovimento1.Text))) * 100;
+            array[3] = ((Convert.ToDouble(estoque2.Text) / Convert.ToDouble(Estoque1.Text)) ) * 100;
+            array[4] = ((Convert.ToDouble(contasareceber2.Text) / Convert.ToDouble(Contasaareceber1.Text)) ) * 100;
+            array[5] = ((Convert.ToDouble(AtivoImobilizado2.Text) / Convert.ToDouble(Imobilizado1.Text))) * 100;
+            array[6] = ((Convert.ToDouble(veiculos2.Text) / Convert.ToDouble(Veiculos1.Text))) * 100;
+            array[7] = ((Convert.ToDouble(Moveis2.Text) / Convert.ToDouble(Moveis1.Text)) ) * 100;
+            array[8] = ((Convert.ToDouble(Instalacoes2.Text) / Convert.ToDouble(Instalacoes1.Text)) ) * 100;
+            array[9] = ((Convert.ToDouble(maquinas2.Text) / Convert.ToDouble(maquinas1.Text)) ) * 100;
+            array[10] = ((Convert.ToDouble(computadores2.Text) / Convert.ToDouble(computadores1.Text))) * 100;
             return array;
         }
         public double[] AnaliseHorizontaPassivolDEZEMBROEJaneiro()
         {
             //Enumerado em ordem dentro do array
             double[] array = new double[9];
-            array[0] = ((Convert.ToDouble(PassivoCirculante2.Text) / Convert.ToDouble(PassivoNaoCirculante1.Text)) - 1) * 100;
-            array[1] = ((Convert.ToDouble(PASSIVOSALARIOSENCARGOSPAGAR2.Text) / Convert.ToDouble(PASSIVOSALARIOSENCARGOSPAGAR.Text)) - 1) * 100;
-            array[2] = ((Convert.ToDouble(PASSIVOFORNECEDORES2.Text) / Convert.ToDouble(PASSIVOFORNECEDORES.Text)) - 1) * 100;
-            array[3] = ((Convert.ToDouble(PASSIVOCONTASAPAGAR2.Text) / Convert.ToDouble(PASSIVOCONTASAPAGAR.Text)) - 1) * 100;
-            array[4] = ((Convert.ToDouble(PASSIVOFINANCIAMENTO2.Text) / Convert.ToDouble(PASSIVOFINANCIAMENTO.Text)) - 1) * 100;
-            array[5] = ((Convert.ToDouble(PassivoNaocirculante2.Text) / Convert.ToDouble(PassivoNaoCirculante1.Text)) - 1) * 100;
-            array[6] = ((Convert.ToDouble(PassvioPatrimonioLiq2.Text) / Convert.ToDouble(PassivoPatromnioLiq1.Text)) - 1) * 100;
-            array[7] = ((Convert.ToDouble(PASSIVOCAPITALSOCIAL2.Text) / Convert.ToDouble(PASSIVOCAPITALSOCIAL.Text)) - 1) * 100;
-            array[8] = ((Convert.ToDouble(PASSIVOLUCROOUPREJUIZO2.Text) / Convert.ToDouble(PASSIVOLUCROOUPREJUIZO.Text)) - 1) * 100;
+            array[0] = ((Convert.ToDouble(PassivoCirculante2.Text) / Convert.ToDouble(PassivoNaoCirculante1.Text)) ) * 100;
+            array[1] = ((Convert.ToDouble(PASSIVOSALARIOSENCARGOSPAGAR2.Text) / Convert.ToDouble(PASSIVOSALARIOSENCARGOSPAGAR.Text)) ) * 100;
+            array[2] = ((Convert.ToDouble(PASSIVOFORNECEDORES2.Text) / Convert.ToDouble(PASSIVOFORNECEDORES.Text)) ) * 100;
+            array[3] = ((Convert.ToDouble(PASSIVOCONTASAPAGAR2.Text) / Convert.ToDouble(PASSIVOCONTASAPAGAR.Text)) ) * 100;
+            array[4] = ((Convert.ToDouble(PASSIVOFINANCIAMENTO2.Text) / Convert.ToDouble(PASSIVOFINANCIAMENTO.Text)) ) * 100;
+            array[5] = ((Convert.ToDouble(PassivoNaocirculante2.Text) / Convert.ToDouble(PassivoNaoCirculante1.Text)) ) * 100;
+            array[6] = ((Convert.ToDouble(PassvioPatrimonioLiq2.Text) / Convert.ToDouble(PassivoPatromnioLiq1.Text)) ) * 100;
+            array[7] = ((Convert.ToDouble(PASSIVOCAPITALSOCIAL2.Text) / Convert.ToDouble(PASSIVOCAPITALSOCIAL.Text)) ) * 100;
+            array[8] = ((Convert.ToDouble(PASSIVOLUCROOUPREJUIZO2.Text) / Convert.ToDouble(PASSIVOLUCROOUPREJUIZO.Text)) ) * 100;
             return array;
         }
     }

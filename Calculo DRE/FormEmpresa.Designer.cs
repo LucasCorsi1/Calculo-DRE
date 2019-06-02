@@ -178,7 +178,7 @@
             this.contribuicaosocial.Name = "contribuicaosocial";
             this.contribuicaosocial.Size = new System.Drawing.Size(100, 22);
             this.contribuicaosocial.TabIndex = 86;
-            this.contribuicaosocial.Text = "-105.19";
+            this.contribuicaosocial.Text = "-105,19";
             // 
             // label61
             // 
@@ -197,7 +197,7 @@
             this.Impostederenda.Name = "Impostederenda";
             this.Impostederenda.Size = new System.Drawing.Size(100, 22);
             this.Impostederenda.TabIndex = 89;
-            this.Impostederenda.Text = "-157.78";
+            this.Impostederenda.Text = "-157,78";
             // 
             // label62
             // 
@@ -253,7 +253,7 @@
             this.CMV.Name = "CMV";
             this.CMV.Size = new System.Drawing.Size(100, 22);
             this.CMV.TabIndex = 81;
-            this.CMV.Text = "-10701.58";
+            this.CMV.Text = "-10701,58";
             // 
             // label22
             // 
@@ -309,7 +309,7 @@
             this.icmssemvendas.Name = "icmssemvendas";
             this.icmssemvendas.Size = new System.Drawing.Size(100, 22);
             this.icmssemvendas.TabIndex = 76;
-            this.icmssemvendas.Text = "-4714.5";
+            this.icmssemvendas.Text = "-4714,5";
             // 
             // LucroBruto
             // 
@@ -317,7 +317,7 @@
             this.LucroBruto.Name = "LucroBruto";
             this.LucroBruto.Size = new System.Drawing.Size(100, 22);
             this.LucroBruto.TabIndex = 3;
-            this.LucroBruto.Text = "16013.92";
+            this.LucroBruto.Text = "16013,92";
             // 
             // label56
             // 
@@ -336,7 +336,7 @@
             this.LucroantesdoIR.Name = "LucroantesdoIR";
             this.LucroantesdoIR.Size = new System.Drawing.Size(100, 22);
             this.LucroantesdoIR.TabIndex = 2;
-            this.LucroantesdoIR.Text = "1051.92";
+            this.LucroantesdoIR.Text = "1051,92";
             // 
             // Vendas
             // 
@@ -352,7 +352,7 @@
             this.LucroOUPrejuizoAcumulado.Name = "LucroOUPrejuizoAcumulado";
             this.LucroOUPrejuizoAcumulado.Size = new System.Drawing.Size(100, 22);
             this.LucroOUPrejuizoAcumulado.TabIndex = 1;
-            this.LucroOUPrejuizoAcumulado.Text = "788.95";
+            this.LucroOUPrejuizoAcumulado.Text = "788,95";
             // 
             // label57
             // 
@@ -370,7 +370,7 @@
             this.Receitaliquida.Name = "Receitaliquida";
             this.Receitaliquida.Size = new System.Drawing.Size(100, 22);
             this.Receitaliquida.TabIndex = 0;
-            this.Receitaliquida.Text = "26715.5";
+            this.Receitaliquida.Text = "267155";
             // 
             // label58
             // 
