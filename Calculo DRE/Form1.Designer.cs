@@ -139,7 +139,7 @@
             this.AtivoCirculante1.Name = "AtivoCirculante1";
             this.AtivoCirculante1.Size = new System.Drawing.Size(100, 22);
             this.AtivoCirculante1.TabIndex = 0;
-            this.AtivoCirculante1.Text = "10000";
+            this.AtivoCirculante1.Text = "40843.95 ";
             // 
             // AtivonãoCirculante1
             // 
@@ -149,7 +149,6 @@
             this.AtivonãoCirculante1.Name = "AtivonãoCirculante1";
             this.AtivonãoCirculante1.Size = new System.Drawing.Size(100, 22);
             this.AtivonãoCirculante1.TabIndex = 1;
-            this.AtivonãoCirculante1.Text = "10000";
             // 
             // AtivoTotal1
             // 
@@ -159,7 +158,7 @@
             this.AtivoTotal1.Name = "AtivoTotal1";
             this.AtivoTotal1.Size = new System.Drawing.Size(100, 22);
             this.AtivoTotal1.TabIndex = 2;
-            this.AtivoTotal1.Text = "10000";
+            this.AtivoTotal1.Text = "163893.95";
             // 
             // label3
             // 
@@ -229,7 +228,7 @@
             this.AtivoTotal2.Name = "AtivoTotal2";
             this.AtivoTotal2.Size = new System.Drawing.Size(100, 22);
             this.AtivoTotal2.TabIndex = 29;
-            this.AtivoTotal2.Text = "10000";
+            this.AtivoTotal2.Text = "126265";
             // 
             // AtivoNaoCirculante2
             // 
@@ -239,7 +238,6 @@
             this.AtivoNaoCirculante2.Name = "AtivoNaoCirculante2";
             this.AtivoNaoCirculante2.Size = new System.Drawing.Size(100, 22);
             this.AtivoNaoCirculante2.TabIndex = 28;
-            this.AtivoNaoCirculante2.Text = "10000";
             // 
             // AtivoCirculante2
             // 
@@ -249,7 +247,7 @@
             this.AtivoCirculante2.Name = "AtivoCirculante2";
             this.AtivoCirculante2.Size = new System.Drawing.Size(100, 22);
             this.AtivoCirculante2.TabIndex = 27;
-            this.AtivoCirculante2.Text = "10000";
+            this.AtivoCirculante2.Text = "35715";
             // 
             // label9
             // 
@@ -289,7 +287,7 @@
             this.Imobilizado1.Name = "Imobilizado1";
             this.Imobilizado1.Size = new System.Drawing.Size(100, 22);
             this.Imobilizado1.TabIndex = 35;
-            this.Imobilizado1.Text = "10000";
+            this.Imobilizado1.Text = "123050";
             // 
             // label11
             // 
@@ -309,7 +307,7 @@
             this.AtivoImobilizado2.Name = "AtivoImobilizado2";
             this.AtivoImobilizado2.Size = new System.Drawing.Size(100, 22);
             this.AtivoImobilizado2.TabIndex = 37;
-            this.AtivoImobilizado2.Text = "10000";
+            this.AtivoImobilizado2.Text = "90550";
             // 
             // groupBox1
             // 
@@ -385,7 +383,7 @@
             this.maquinas2.Name = "maquinas2";
             this.maquinas2.Size = new System.Drawing.Size(100, 22);
             this.maquinas2.TabIndex = 73;
-            this.maquinas2.Text = "10000";
+            this.maquinas2.Text = "17000";
             // 
             // label37
             // 
@@ -406,7 +404,7 @@
             this.computadores2.Name = "computadores2";
             this.computadores2.Size = new System.Drawing.Size(100, 22);
             this.computadores2.TabIndex = 71;
-            this.computadores2.Text = "10000";
+            this.computadores2.Text = "5000";
             // 
             // label38
             // 
@@ -427,7 +425,7 @@
             this.veiculos2.Name = "veiculos2";
             this.veiculos2.Size = new System.Drawing.Size(100, 22);
             this.veiculos2.TabIndex = 65;
-            this.veiculos2.Text = "10000";
+            this.veiculos2.Text = "40000";
             // 
             // Instalacoes2
             // 
@@ -437,7 +435,7 @@
             this.Instalacoes2.Name = "Instalacoes2";
             this.Instalacoes2.Size = new System.Drawing.Size(100, 22);
             this.Instalacoes2.TabIndex = 66;
-            this.Instalacoes2.Text = "10000";
+            this.Instalacoes2.Text = "15650";
             // 
             // label39
             // 
@@ -459,7 +457,7 @@
             this.Moveis2.Name = "Moveis2";
             this.Moveis2.Size = new System.Drawing.Size(100, 22);
             this.Moveis2.TabIndex = 69;
-            this.Moveis2.Text = "10000";
+            this.Moveis2.Text = "12900";
             // 
             // label40
             // 
@@ -491,7 +489,7 @@
             this.contasareceber2.Name = "contasareceber2";
             this.contasareceber2.Size = new System.Drawing.Size(100, 22);
             this.contasareceber2.TabIndex = 63;
-            this.contasareceber2.Text = "10000";
+            this.contasareceber2.Text = "12200";
             // 
             // label33
             // 
@@ -512,7 +510,7 @@
             this.caixa2.Name = "caixa2";
             this.caixa2.Size = new System.Drawing.Size(100, 22);
             this.caixa2.TabIndex = 57;
-            this.caixa2.Text = "10000";
+            this.caixa2.Text = "6120";
             // 
             // estoque2
             // 
@@ -522,7 +520,7 @@
             this.estoque2.Name = "estoque2";
             this.estoque2.Size = new System.Drawing.Size(100, 22);
             this.estoque2.TabIndex = 58;
-            this.estoque2.Text = "10000";
+            this.estoque2.Text = "850";
             // 
             // label34
             // 
@@ -544,7 +542,7 @@
             this.BancosCMovimento2.Name = "BancosCMovimento2";
             this.BancosCMovimento2.Size = new System.Drawing.Size(100, 22);
             this.BancosCMovimento2.TabIndex = 61;
-            this.BancosCMovimento2.Text = "10000";
+            this.BancosCMovimento2.Text = "16545";
             // 
             // label35
             // 
@@ -576,7 +574,7 @@
             this.maquinas1.Name = "maquinas1";
             this.maquinas1.Size = new System.Drawing.Size(100, 22);
             this.maquinas1.TabIndex = 55;
-            this.maquinas1.Text = "10000";
+            this.maquinas1.Text = "57000";
             // 
             // label32
             // 
@@ -597,7 +595,7 @@
             this.computadores1.Name = "computadores1";
             this.computadores1.Size = new System.Drawing.Size(100, 22);
             this.computadores1.TabIndex = 53;
-            this.computadores1.Text = "10000";
+            this.computadores1.Text = "15000";
             // 
             // label28
             // 
@@ -618,7 +616,7 @@
             this.Veiculos1.Name = "Veiculos1";
             this.Veiculos1.Size = new System.Drawing.Size(100, 22);
             this.Veiculos1.TabIndex = 47;
-            this.Veiculos1.Text = "10000";
+            this.Veiculos1.Text = "22500";
             // 
             // Instalacoes1
             // 
@@ -628,7 +626,7 @@
             this.Instalacoes1.Name = "Instalacoes1";
             this.Instalacoes1.Size = new System.Drawing.Size(100, 22);
             this.Instalacoes1.TabIndex = 48;
-            this.Instalacoes1.Text = "10000";
+            this.Instalacoes1.Text = "15650";
             // 
             // label29
             // 
@@ -650,7 +648,7 @@
             this.Moveis1.Name = "Moveis1";
             this.Moveis1.Size = new System.Drawing.Size(100, 22);
             this.Moveis1.TabIndex = 51;
-            this.Moveis1.Text = "10000";
+            this.Moveis1.Text = "12900";
             // 
             // label30
             // 
@@ -682,7 +680,7 @@
             this.Contasaareceber1.Name = "Contasaareceber1";
             this.Contasaareceber1.Size = new System.Drawing.Size(100, 22);
             this.Contasaareceber1.TabIndex = 45;
-            this.Contasaareceber1.Text = "10000";
+            this.Contasaareceber1.Text = "21.430";
             // 
             // label27
             // 
@@ -703,7 +701,7 @@
             this.Caixa1.Name = "Caixa1";
             this.Caixa1.Size = new System.Drawing.Size(100, 22);
             this.Caixa1.TabIndex = 39;
-            this.Caixa1.Text = "10000";
+            this.Caixa1.Text = "7108.53 ";
             // 
             // Estoque1
             // 
@@ -713,7 +711,7 @@
             this.Estoque1.Name = "Estoque1";
             this.Estoque1.Size = new System.Drawing.Size(100, 22);
             this.Estoque1.TabIndex = 40;
-            this.Estoque1.Text = "10000";
+            this.Estoque1.Text = "1130.42";
             // 
             // label24
             // 
@@ -735,7 +733,7 @@
             this.BancosCMovimento1.Name = "BancosCMovimento1";
             this.BancosCMovimento1.Size = new System.Drawing.Size(100, 22);
             this.BancosCMovimento1.TabIndex = 43;
-            this.BancosCMovimento1.Text = "10000";
+            this.BancosCMovimento1.Text = "11175";
             // 
             // label25
             // 
@@ -767,7 +765,7 @@
             this.PassivoCirculante1.Name = "PassivoCirculante1";
             this.PassivoCirculante1.Size = new System.Drawing.Size(100, 22);
             this.PassivoCirculante1.TabIndex = 40;
-            this.PassivoCirculante1.Text = "10000";
+            this.PassivoCirculante1.Text = "27560";
             // 
             // PassivoNaoCirculante1
             // 
@@ -777,7 +775,7 @@
             this.PassivoNaoCirculante1.Name = "PassivoNaoCirculante1";
             this.PassivoNaoCirculante1.Size = new System.Drawing.Size(100, 22);
             this.PassivoNaoCirculante1.TabIndex = 41;
-            this.PassivoNaoCirculante1.Text = "10000";
+            this.PassivoNaoCirculante1.Text = "12000";
             // 
             // PassvioPatrimonioLiq2
             // 
@@ -787,7 +785,7 @@
             this.PassvioPatrimonioLiq2.Name = "PassvioPatrimonioLiq2";
             this.PassvioPatrimonioLiq2.Size = new System.Drawing.Size(100, 22);
             this.PassvioPatrimonioLiq2.TabIndex = 56;
-            this.PassvioPatrimonioLiq2.Text = "10000";
+            this.PassvioPatrimonioLiq2.Text = "51545";
             // 
             // PassivoTotal1
             // 
@@ -797,7 +795,7 @@
             this.PassivoTotal1.Name = "PassivoTotal1";
             this.PassivoTotal1.Size = new System.Drawing.Size(100, 22);
             this.PassivoTotal1.TabIndex = 42;
-            this.PassivoTotal1.Text = "10000";
+            this.PassivoTotal1.Text = "91893.95";
             // 
             // PassivoPatromnioLiq1
             // 
@@ -807,7 +805,7 @@
             this.PassivoPatromnioLiq1.Name = "PassivoPatromnioLiq1";
             this.PassivoPatromnioLiq1.Size = new System.Drawing.Size(100, 22);
             this.PassivoPatromnioLiq1.TabIndex = 54;
-            this.PassivoPatromnioLiq1.Text = "10000";
+            this.PassivoPatromnioLiq1.Text = "52333.95";
             // 
             // label13
             // 
@@ -867,7 +865,7 @@
             this.PassivoCirculante2.Name = "PassivoCirculante2";
             this.PassivoCirculante2.Size = new System.Drawing.Size(100, 22);
             this.PassivoCirculante2.TabIndex = 46;
-            this.PassivoCirculante2.Text = "10000";
+            this.PassivoCirculante2.Text = "23220";
             // 
             // PassivoNaocirculante2
             // 
@@ -877,7 +875,7 @@
             this.PassivoNaocirculante2.Name = "PassivoNaocirculante2";
             this.PassivoNaocirculante2.Size = new System.Drawing.Size(100, 22);
             this.PassivoNaocirculante2.TabIndex = 47;
-            this.PassivoNaocirculante2.Text = "10000";
+            this.PassivoNaocirculante2.Text = "12000";
             // 
             // PassivoTotal2
             // 
@@ -887,7 +885,7 @@
             this.PassivoTotal2.Name = "PassivoTotal2";
             this.PassivoTotal2.Size = new System.Drawing.Size(100, 22);
             this.PassivoTotal2.TabIndex = 48;
-            this.PassivoTotal2.Text = "10000";
+            this.PassivoTotal2.Text = "86765";
             // 
             // groupBox2
             // 
@@ -1058,7 +1056,7 @@
             this.PASSIVOLUCROOUPREJUIZO2.Name = "PASSIVOLUCROOUPREJUIZO2";
             this.PASSIVOLUCROOUPREJUIZO2.Size = new System.Drawing.Size(100, 22);
             this.PASSIVOLUCROOUPREJUIZO2.TabIndex = 87;
-            this.PASSIVOLUCROOUPREJUIZO2.Text = "10000";
+            this.PASSIVOLUCROOUPREJUIZO2.Text = "1545";
             // 
             // PASSIVOCAPITALSOCIAL2
             // 
@@ -1068,7 +1066,7 @@
             this.PASSIVOCAPITALSOCIAL2.Name = "PASSIVOCAPITALSOCIAL2";
             this.PASSIVOCAPITALSOCIAL2.Size = new System.Drawing.Size(100, 22);
             this.PASSIVOCAPITALSOCIAL2.TabIndex = 85;
-            this.PASSIVOCAPITALSOCIAL2.Text = "10000";
+            this.PASSIVOCAPITALSOCIAL2.Text = "50000";
             // 
             // PASSIVOFINANCIAMENTO2
             // 
@@ -1078,7 +1076,7 @@
             this.PASSIVOFINANCIAMENTO2.Name = "PASSIVOFINANCIAMENTO2";
             this.PASSIVOFINANCIAMENTO2.Size = new System.Drawing.Size(100, 22);
             this.PASSIVOFINANCIAMENTO2.TabIndex = 83;
-            this.PASSIVOFINANCIAMENTO2.Text = "10000";
+            this.PASSIVOFINANCIAMENTO2.Text = "11000";
             // 
             // PASSIVOSALARIOSENCARGOSPAGAR2
             // 
@@ -1088,7 +1086,7 @@
             this.PASSIVOSALARIOSENCARGOSPAGAR2.Name = "PASSIVOSALARIOSENCARGOSPAGAR2";
             this.PASSIVOSALARIOSENCARGOSPAGAR2.Size = new System.Drawing.Size(100, 22);
             this.PASSIVOSALARIOSENCARGOSPAGAR2.TabIndex = 77;
-            this.PASSIVOSALARIOSENCARGOSPAGAR2.Text = "10000";
+            this.PASSIVOSALARIOSENCARGOSPAGAR2.Text = "8800";
             // 
             // PASSIVOCONTASAPAGAR2
             // 
@@ -1098,7 +1096,7 @@
             this.PASSIVOCONTASAPAGAR2.Name = "PASSIVOCONTASAPAGAR2";
             this.PASSIVOCONTASAPAGAR2.Size = new System.Drawing.Size(100, 22);
             this.PASSIVOCONTASAPAGAR2.TabIndex = 78;
-            this.PASSIVOCONTASAPAGAR2.Text = "10000";
+            this.PASSIVOCONTASAPAGAR2.Text = "1650";
             // 
             // PASSIVOFORNECEDORES2
             // 
@@ -1108,7 +1106,7 @@
             this.PASSIVOFORNECEDORES2.Name = "PASSIVOFORNECEDORES2";
             this.PASSIVOFORNECEDORES2.Size = new System.Drawing.Size(100, 22);
             this.PASSIVOFORNECEDORES2.TabIndex = 81;
-            this.PASSIVOFORNECEDORES2.Text = "10000";
+            this.PASSIVOFORNECEDORES2.Text = "1770";
             // 
             // PASSIVOLUCROOUPREJUIZO
             // 
@@ -1118,7 +1116,7 @@
             this.PASSIVOLUCROOUPREJUIZO.Name = "PASSIVOLUCROOUPREJUIZO";
             this.PASSIVOLUCROOUPREJUIZO.Size = new System.Drawing.Size(100, 22);
             this.PASSIVOLUCROOUPREJUIZO.TabIndex = 75;
-            this.PASSIVOLUCROOUPREJUIZO.Text = "10000";
+            this.PASSIVOLUCROOUPREJUIZO.Text = "2333.95";
             // 
             // label46
             // 
@@ -1139,7 +1137,7 @@
             this.PASSIVOCAPITALSOCIAL.Name = "PASSIVOCAPITALSOCIAL";
             this.PASSIVOCAPITALSOCIAL.Size = new System.Drawing.Size(100, 22);
             this.PASSIVOCAPITALSOCIAL.TabIndex = 73;
-            this.PASSIVOCAPITALSOCIAL.Text = "10000";
+            this.PASSIVOCAPITALSOCIAL.Text = "50000";
             // 
             // label47
             // 
@@ -1160,7 +1158,7 @@
             this.PASSIVOFINANCIAMENTO.Name = "PASSIVOFINANCIAMENTO";
             this.PASSIVOFINANCIAMENTO.Size = new System.Drawing.Size(100, 22);
             this.PASSIVOFINANCIAMENTO.TabIndex = 71;
-            this.PASSIVOFINANCIAMENTO.Text = "10000";
+            this.PASSIVOFINANCIAMENTO.Text = "11000";
             // 
             // label42
             // 
@@ -1181,7 +1179,7 @@
             this.PASSIVOSALARIOSENCARGOSPAGAR.Name = "PASSIVOSALARIOSENCARGOSPAGAR";
             this.PASSIVOSALARIOSENCARGOSPAGAR.Size = new System.Drawing.Size(100, 22);
             this.PASSIVOSALARIOSENCARGOSPAGAR.TabIndex = 65;
-            this.PASSIVOSALARIOSENCARGOSPAGAR.Text = "10000";
+            this.PASSIVOSALARIOSENCARGOSPAGAR.Text = "7950";
             // 
             // PASSIVOCONTASAPAGAR
             // 
@@ -1191,7 +1189,7 @@
             this.PASSIVOCONTASAPAGAR.Name = "PASSIVOCONTASAPAGAR";
             this.PASSIVOCONTASAPAGAR.Size = new System.Drawing.Size(100, 22);
             this.PASSIVOCONTASAPAGAR.TabIndex = 66;
-            this.PASSIVOCONTASAPAGAR.Text = "10000";
+            this.PASSIVOCONTASAPAGAR.Text = "1650";
             // 
             // label43
             // 
@@ -1213,7 +1211,7 @@
             this.PASSIVOFORNECEDORES.Name = "PASSIVOFORNECEDORES";
             this.PASSIVOFORNECEDORES.Size = new System.Drawing.Size(100, 22);
             this.PASSIVOFORNECEDORES.TabIndex = 69;
-            this.PASSIVOFORNECEDORES.Text = "10000";
+            this.PASSIVOFORNECEDORES.Text = "6960";
             // 
             // label44
             // 

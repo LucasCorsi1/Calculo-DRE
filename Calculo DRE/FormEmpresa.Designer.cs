@@ -135,7 +135,6 @@
             this.DESPESAS.Name = "DESPESAS";
             this.DESPESAS.Size = new System.Drawing.Size(100, 22);
             this.DESPESAS.TabIndex = 93;
-            this.DESPESAS.Text = "10000";
             // 
             // label59
             // 
@@ -153,7 +152,7 @@
             this.luzaguatelefone.Name = "luzaguatelefone";
             this.luzaguatelefone.Size = new System.Drawing.Size(100, 22);
             this.luzaguatelefone.TabIndex = 91;
-            this.luzaguatelefone.Text = "10000";
+            this.luzaguatelefone.Text = "-3412";
             // 
             // label60
             // 
@@ -171,7 +170,7 @@
             this.ALUGUEL.Name = "ALUGUEL";
             this.ALUGUEL.Size = new System.Drawing.Size(100, 22);
             this.ALUGUEL.TabIndex = 85;
-            this.ALUGUEL.Text = "10000";
+            this.ALUGUEL.Text = "-3600";
             // 
             // contribuicaosocial
             // 
@@ -179,7 +178,7 @@
             this.contribuicaosocial.Name = "contribuicaosocial";
             this.contribuicaosocial.Size = new System.Drawing.Size(100, 22);
             this.contribuicaosocial.TabIndex = 86;
-            this.contribuicaosocial.Text = "10000";
+            this.contribuicaosocial.Text = "-105.19";
             // 
             // label61
             // 
@@ -198,7 +197,7 @@
             this.Impostederenda.Name = "Impostederenda";
             this.Impostederenda.Size = new System.Drawing.Size(100, 22);
             this.Impostederenda.TabIndex = 89;
-            this.Impostederenda.Text = "10000";
+            this.Impostederenda.Text = "-157.78";
             // 
             // label62
             // 
@@ -226,7 +225,7 @@
             this.SALARIOS.Name = "SALARIOS";
             this.SALARIOS.Size = new System.Drawing.Size(100, 22);
             this.SALARIOS.TabIndex = 83;
-            this.SALARIOS.Text = "10000";
+            this.SALARIOS.Text = "-7950";
             // 
             // label54
             // 
@@ -254,7 +253,7 @@
             this.CMV.Name = "CMV";
             this.CMV.Size = new System.Drawing.Size(100, 22);
             this.CMV.TabIndex = 81;
-            this.CMV.Text = "10000";
+            this.CMV.Text = "-10701.58";
             // 
             // label22
             // 
@@ -292,7 +291,7 @@
             this.receita.Name = "receita";
             this.receita.Size = new System.Drawing.Size(100, 22);
             this.receita.TabIndex = 75;
-            this.receita.Text = "10000";
+            this.receita.Text = "31430";
             // 
             // label12
             // 
@@ -310,7 +309,7 @@
             this.icmssemvendas.Name = "icmssemvendas";
             this.icmssemvendas.Size = new System.Drawing.Size(100, 22);
             this.icmssemvendas.TabIndex = 76;
-            this.icmssemvendas.Text = "10000";
+            this.icmssemvendas.Text = "-4714.5";
             // 
             // LucroBruto
             // 
@@ -318,7 +317,7 @@
             this.LucroBruto.Name = "LucroBruto";
             this.LucroBruto.Size = new System.Drawing.Size(100, 22);
             this.LucroBruto.TabIndex = 3;
-            this.LucroBruto.Text = "10000";
+            this.LucroBruto.Text = "16013.92";
             // 
             // label56
             // 
@@ -337,7 +336,7 @@
             this.LucroantesdoIR.Name = "LucroantesdoIR";
             this.LucroantesdoIR.Size = new System.Drawing.Size(100, 22);
             this.LucroantesdoIR.TabIndex = 2;
-            this.LucroantesdoIR.Text = "10000";
+            this.LucroantesdoIR.Text = "1051.92";
             // 
             // Vendas
             // 
@@ -345,7 +344,7 @@
             this.Vendas.Name = "Vendas";
             this.Vendas.Size = new System.Drawing.Size(100, 22);
             this.Vendas.TabIndex = 79;
-            this.Vendas.Text = "10000";
+            this.Vendas.Text = "31430";
             // 
             // LucroOUPrejuizoAcumulado
             // 
@@ -353,7 +352,7 @@
             this.LucroOUPrejuizoAcumulado.Name = "LucroOUPrejuizoAcumulado";
             this.LucroOUPrejuizoAcumulado.Size = new System.Drawing.Size(100, 22);
             this.LucroOUPrejuizoAcumulado.TabIndex = 1;
-            this.LucroOUPrejuizoAcumulado.Text = "10000";
+            this.LucroOUPrejuizoAcumulado.Text = "788.95";
             // 
             // label57
             // 
@@ -371,7 +370,7 @@
             this.Receitaliquida.Name = "Receitaliquida";
             this.Receitaliquida.Size = new System.Drawing.Size(100, 22);
             this.Receitaliquida.TabIndex = 0;
-            this.Receitaliquida.Text = "10000";
+            this.Receitaliquida.Text = "26715.5";
             // 
             // label58
             // 
@@ -427,7 +426,6 @@
             this.despesas2.Name = "despesas2";
             this.despesas2.Size = new System.Drawing.Size(100, 22);
             this.despesas2.TabIndex = 93;
-            this.despesas2.Text = "10000";
             // 
             // label1
             // 
@@ -445,7 +443,7 @@
             this.luzaguatelefone2.Name = "luzaguatelefone2";
             this.luzaguatelefone2.Size = new System.Drawing.Size(100, 22);
             this.luzaguatelefone2.TabIndex = 91;
-            this.luzaguatelefone2.Text = "10000";
+            this.luzaguatelefone2.Text = "-3810";
             // 
             // label2
             // 
@@ -463,7 +461,7 @@
             this.aluguel2.Name = "aluguel2";
             this.aluguel2.Size = new System.Drawing.Size(100, 22);
             this.aluguel2.TabIndex = 85;
-            this.aluguel2.Text = "10000";
+            this.aluguel2.Text = "-3600";
             // 
             // contribuicaosocial2
             // 
@@ -471,7 +469,7 @@
             this.contribuicaosocial2.Name = "contribuicaosocial2";
             this.contribuicaosocial2.Size = new System.Drawing.Size(100, 22);
             this.contribuicaosocial2.TabIndex = 86;
-            this.contribuicaosocial2.Text = "10000";
+            this.contribuicaosocial2.Text = "-206";
             // 
             // label3
             // 
@@ -490,7 +488,7 @@
             this.IR2.Name = "IR2";
             this.IR2.Size = new System.Drawing.Size(100, 22);
             this.IR2.TabIndex = 89;
-            this.IR2.Text = "10000";
+            this.IR2.Text = "-309";
             // 
             // label4
             // 
@@ -518,7 +516,7 @@
             this.salarios2.Name = "salarios2";
             this.salarios2.Size = new System.Drawing.Size(100, 22);
             this.salarios2.TabIndex = 83;
-            this.salarios2.Text = "10000";
+            this.salarios2.Text = "-8800";
             // 
             // label6
             // 
@@ -546,7 +544,7 @@
             this.CMV2.Name = "CMV2";
             this.CMV2.Size = new System.Drawing.Size(100, 22);
             this.CMV2.TabIndex = 81;
-            this.CMV2.Text = "10000";
+            this.CMV2.Text = "-16240";
             // 
             // label8
             // 
@@ -584,7 +582,7 @@
             this.receita2.Name = "receita2";
             this.receita2.Size = new System.Drawing.Size(100, 22);
             this.receita2.TabIndex = 75;
-            this.receita2.Text = "10000";
+            this.receita2.Text = "40600";
             // 
             // label11
             // 
@@ -602,7 +600,7 @@
             this.icmsobrevendas2.Name = "icmsobrevendas2";
             this.icmsobrevendas2.Size = new System.Drawing.Size(100, 22);
             this.icmsobrevendas2.TabIndex = 76;
-            this.icmsobrevendas2.Text = "10000";
+            this.icmsobrevendas2.Text = "-6090";
             // 
             // lucrobruto2
             // 
@@ -610,7 +608,7 @@
             this.lucrobruto2.Name = "lucrobruto2";
             this.lucrobruto2.Size = new System.Drawing.Size(100, 22);
             this.lucrobruto2.TabIndex = 3;
-            this.lucrobruto2.Text = "10000";
+            this.lucrobruto2.Text = "18270";
             // 
             // label13
             // 
@@ -629,7 +627,7 @@
             this.lucrosemIR2.Name = "lucrosemIR2";
             this.lucrosemIR2.Size = new System.Drawing.Size(100, 22);
             this.lucrosemIR2.TabIndex = 2;
-            this.lucrosemIR2.Text = "10000";
+            this.lucrosemIR2.Text = "2060";
             // 
             // vendas2
             // 
@@ -637,7 +635,7 @@
             this.vendas2.Name = "vendas2";
             this.vendas2.Size = new System.Drawing.Size(100, 22);
             this.vendas2.TabIndex = 79;
-            this.vendas2.Text = "10000";
+            this.vendas2.Text = "40600";
             // 
             // lucroouprejuizo2
             // 
@@ -645,7 +643,7 @@
             this.lucroouprejuizo2.Name = "lucroouprejuizo2";
             this.lucroouprejuizo2.Size = new System.Drawing.Size(100, 22);
             this.lucroouprejuizo2.TabIndex = 1;
-            this.lucroouprejuizo2.Text = "10000";
+            this.lucroouprejuizo2.Text = "1545";
             // 
             // label14
             // 
@@ -663,7 +661,7 @@
             this.receitaliq2.Name = "receitaliq2";
             this.receitaliq2.Size = new System.Drawing.Size(100, 22);
             this.receitaliq2.TabIndex = 0;
-            this.receitaliq2.Text = "10000";
+            this.receitaliq2.Text = "34510";
             // 
             // label15
             // 
