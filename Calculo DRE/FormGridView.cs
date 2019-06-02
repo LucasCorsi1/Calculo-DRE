@@ -34,14 +34,13 @@ namespace Calculo_DRE
                  dataGridView.Rows[7].Cells[0].Value = "Garatia do Capital de 3°s: " + FormDRE.DRE.Garatiadocapitaldeterceiros();
                  dataGridView.Rows[8].Cells[0].Value = "Grau de Solvencia: " + FormDRE.DRE.Graudesolvencia();
                  dataGridView.Rows[9].Cells[0].Value = "Giro do Ativo: " + FormDRE.DRE.Girodoativo();
-                dataGridView.Rows[10].Cells[0].Value = "Lucratividade: " + FormDRE.DRE.Lucratividade();
-                dataGridView.Rows[11].Cells[0].Value = "Prazo Medio de Estoques: " + FormDRE.DRE.Prazomediodeestoques();
-                dataGridView.Rows[12].Cells[0].Value = "Prazo Medio Estoques/Periodo: " + FormDRE.DRE.PrazomedioEstoquesPorperidodo();
+                 dataGridView.Rows[10].Cells[0].Value = "Lucratividade: " + FormDRE.DRE.Lucratividade();
+                 dataGridView.Rows[11].Cells[0].Value = "Prazo Medio de Estoques: " + FormDRE.DRE.Prazomediodeestoques();
+                 dataGridView.Rows[12].Cells[0].Value = "Prazo Medio Estoques/Periodo: " + FormDRE.DRE.PrazomedioEstoquesPorperidodo();
             }
             catch
             {
-                MessageBox.Show("Nope Dez","Error");
-            }
+                    }
             //Indices Atv Jan
             try
             {
@@ -61,12 +60,13 @@ namespace Calculo_DRE
             }
             catch
             {
-                MessageBox.Show("Nope Jan", "Error");
+        
             }
             //Analise vertical Ativo DEZEMBRO
             try
             {
-                double[] array = FormDRE.DRE.AnaliseverticalAtivoDEZEMBRO();
+                 double[] array = FormDRE.DRE.AnaliseverticalAtivoDEZEMBRO();
+
                  dataGridView.Rows[0].Cells[2].Value = "Ativo Circulante/AtivoTotal: " + array[0].ToString();
                  dataGridView.Rows[1].Cells[2].Value = "Caixa/Ativo Circ: " + array[1].ToString();
                  dataGridView.Rows[2].Cells[2].Value = "Bancos Com Movimento/Ativo Circ: " + array[2].ToString();
@@ -81,7 +81,7 @@ namespace Calculo_DRE
             }
             catch
             {
-                MessageBox.Show("Nope, Analise vertical Ativo Dezembro", "Error");
+           
             }
             //Analise vertical Ativo Janeiro
             try
@@ -101,7 +101,7 @@ namespace Calculo_DRE
             }
             catch
             {
-                MessageBox.Show("Nope, Analise vertical Ativo Janeiro", "Error");
+ 
             }
             //Analise vertical PASSIVO DEZEMBRO
             try
@@ -119,7 +119,7 @@ namespace Calculo_DRE
             }
             catch
             {
-                MessageBox.Show("Nope, Analise vertical Passivo Dezembro", "Error");
+
             }
             //Analise vertical PASSIVO Janeiro
             try
@@ -137,7 +137,7 @@ namespace Calculo_DRE
             }
             catch
             {
-                MessageBox.Show("Nope, Analise vertical Passivo Dezembro", "Error");
+   
             }
             //Analise Horizonta ATIVO DEZEMBRO E Janeiro
             try
@@ -157,7 +157,7 @@ namespace Calculo_DRE
             }
             catch
             {
-                MessageBox.Show("Nope, Analise vertical Passivo Dezembro", "Error");
+           
             }
             //Analise Horizonta Passivo DEZEMBRO E Janeiro
             try
@@ -175,7 +175,7 @@ namespace Calculo_DRE
             }
             catch
             {
-                MessageBox.Show("Nope, Analise vertical Passivo Dezembro", "Error");
+           
             }
             //Analise Vertical resultado da empresa DEZEMBRO
             try
@@ -197,7 +197,7 @@ namespace Calculo_DRE
             }
             catch
             {
-                MessageBox.Show("Nope, Analise Vertical Resultado da Empresa Dezembro", "Error");
+        
             }
             //Analise Vertical resultado da empresa JANEIRO
             try
@@ -218,7 +218,7 @@ namespace Calculo_DRE
             }
             catch
             {
-                MessageBox.Show("Nope, Analise Vertical Resultado da Empresa Janeiro", "Error");
+
             }
             //Analise Vertical resultado da empresa
             try
@@ -242,6 +242,41 @@ namespace Calculo_DRE
             catch
             {
                 
+            }
+        }
+
+        Microsoft.Office.Interop.Excel.Application XcelApp = new Microsoft.Office.Interop.Excel.Application();
+
+        private void buttonexcel_Click(object sender, EventArgs e)
+        {
+            if (dataGridView.Rows.Count > 0)
+            {
+                try
+                {
+                    XcelApp.Application.Workbooks.Add(Type.Missing);
+
+                    for (int i = 1; i < dataGridView.Columns.Count + 1; i++)
+                    {
+                        XcelApp.Cells[1, i] = dataGridView.Columns[i - 1].HeaderText;
+                    }
+
+                    //
+                    for (int i = 0; i < dataGridView.Rows.Count - 1; i++)
+                    {
+                        for (int j = 0; j < dataGridView.Columns.Count; j++)
+                        {
+                            XcelApp.Cells[i + 2, j + 1] = dataGridView.Rows[i].Cells[j].Value.ToString();
+                        }
+                    }
+                    //
+                    XcelApp.Columns.AutoFit();
+                    //
+                    XcelApp.Visible = true;
+                }
+                catch 
+                {               
+                    XcelApp.Quit();
+                }
             }
         }
     }

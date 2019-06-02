@@ -40,6 +40,7 @@
             this.AnlVrtRslEmpDez = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AnlVrtRslEmpJan = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AnlVrtRslEmp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.buttonexcel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,11 +61,10 @@
             this.AnlVrtRslEmpDez,
             this.AnlVrtRslEmpJan,
             this.AnlVrtRslEmp});
-            this.dataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView.Location = new System.Drawing.Point(0, 0);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.ReadOnly = true;
-            this.dataGridView.Size = new System.Drawing.Size(1001, 450);
+            this.dataGridView.Size = new System.Drawing.Size(1001, 397);
             this.dataGridView.TabIndex = 0;
             // 
             // ColunaIndicadores
@@ -144,14 +144,27 @@
             this.AnlVrtRslEmp.ReadOnly = true;
             this.AnlVrtRslEmp.Width = 200;
             // 
+            // buttonexcel
+            // 
+            this.buttonexcel.Location = new System.Drawing.Point(12, 403);
+            this.buttonexcel.Name = "buttonexcel";
+            this.buttonexcel.Size = new System.Drawing.Size(97, 48);
+            this.buttonexcel.TabIndex = 1;
+            this.buttonexcel.Text = "Export to excel";
+            this.buttonexcel.UseVisualStyleBackColor = true;
+            this.buttonexcel.Click += new System.EventHandler(this.buttonexcel_Click);
+            // 
             // FormGridView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1001, 450);
+            this.Controls.Add(this.buttonexcel);
             this.Controls.Add(this.dataGridView);
             this.Name = "FormGridView";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormGridView";
+            this.TopMost = true;
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
 
@@ -171,5 +184,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn AnlVrtRslEmpDez;
         private System.Windows.Forms.DataGridViewTextBoxColumn AnlVrtRslEmpJan;
         private System.Windows.Forms.DataGridViewTextBoxColumn AnlVrtRslEmp;
+        private System.Windows.Forms.Button buttonexcel;
     }
 }
